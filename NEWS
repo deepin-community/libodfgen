@@ -1,0 +1,133 @@
+libodfgen 0.1.8
+- All:
+    + use libxml2 to parse xml's equations...
+    + code modernization:
+        use range-based for loop, use nullptr,
+        fix too small loop variables,
+	don't access static members through instance,
+    + retrieve more border's attributes in tables,
+    + retrieve draw:auto-grow-width,draw:fit-to-size,draw:z-index,
+       style:print-content, style:shrink-to-fit attributes in graphics
+- Spreadsheet:
+    + output numbers with more precision,
+- Other improvements and fixes.
+    
+libodfgen 0.1.7
+- All:
+    + switch to C++-11
+    + fuzzing: correct many problem
+    + support more text's style attributes
+    + add support for named's graphic style
+    + ods/odt: try to retrieve some MathML equations
+- Chart:
+    + support more attributes,
+- Spreadsheet:
+    + allow external file reference
+    + do not create invalid file if there is more than 26*26 columns
+- Other improvements and fixes.
+
+libodfgen 0.1.6
+- All:
+    + Support hatching fills.
+    + Handle visibility and printability of objects.
+    + Compute print orientation from page dimensions.
+    + Allow to specify list label font and font size.
+- Drawing/Presentation:
+    + Handle fill properties in openPage(), allowing to set page
+      background.
+- Spreadsheet:
+    + Correctly emit merged cells.
+    + Allow graphics anchored to a sheet cell.
+    + Handle repeated rows/columns, specified by properties
+      table:number-rows-repeated and table:number-columns-repeated.
+    + Add matrix operators ({, } and |).
+    + Handle more cell attributes.
+    + Increase precision of generated numbers.
+- Text:
+    + Allow to set header/footer style.
+- Other improvements and fixes.
+
+libodfgen 0.1.5
+- graphics:
+    + add code for librevenge:replacement-objects
+    + allow to set the opacity value:"draw:opacity" for surfaces which
+      contain patterns,
+    + add minimalist implementation of "measure": if drawPolyline is
+      called with two points and draw:show-unit is set, then create a
+      draw:measure tag instead of a draw:line...
+- sheet interface:
+    + add some operators (plage, union, intersection and %)
+
+libodfgen 0.1.4
+
+- drawing interface: do no forget to call startDocument/endDocument when
+  writing in the manifest
+- metadata: added handler for 'template' metadata, unknown metadata are
+  written in a meta:user-defined elements,
+- defineSheetNumberingStyle: can now define styles for the whole document
+  (and not only for the actual sheet)
+- update doxygen configuration file + add a make astyle command
+
+libodfgen 0.1.3
+
+- Allow writing meta:creation-date metadata element for drawings and
+  presentations too.
+- Improve handling of headings. Most importantly, write valid ODF.
+- Write meta:generator metadata element.
+- Add initial support for embedded fonts. It is currently limited to Flat
+  ODF output.
+
+libodfgen 0.1.2
+
+- Use text:h element for headings. Any paragraph with text:outline-level
+  property is recognized as a heading.
+- Handle layers.
+- Improve handling of styles. Particularly, do not emit duplicate styles.
+- Slightly improve documentation.
+- Handle master pages.
+- Do not expect that integer properties are always in inches.
+- Fix misspelled style:paragraph-properties element in presentation notes.
+- Only export public symbols on Linux.
+- Fix bogus XML-escaping of metadata values.
+- And many other improvements and fixes.
+
+libodfgen 0.1.1
+
+- Export API symbols on Windows.
+- Fix few minor problems with debug mode.
+
+libodfgen 0.1.0
+
+- rebase to librevenge
+- add spreadsheet generator
+- split common parts of all generators out to a base class
+- add tests for all generators
+- add chart generator
+- and many other improvements
+
+libodfgen 0.0.4
+
+- fix handling of presentation tables
+- fix handling of presentation notes
+- fix handling of presentation comments
+
+libodfgen 0.0.3
+
+- handle more table properties
+- more SVG path commands
+- allow to define center of rotation for a textbox
+- make linked text boxes more robust
+- add support for generating presentations (using libetonyek)
+- start on API documentation
+
+libodfgen 0.0.2
+
+- move public headers to inc/
+
+libodfgen 0.0.1
+
+- build fixes
+
+libodfgen 0.0.0
+
+- initial release

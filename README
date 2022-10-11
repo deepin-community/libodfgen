@@ -1,0 +1,32 @@
+DESCRIPTION:
+
+libodfgen is a library for generating documents in (surprise!) Open
+Document Format (ODF). It provides generator implementations for all
+document interfaces supported by librevenge:
+* text documents
+* vector drawings
+* presentations
+* spreadsheets
+As these APIs are used by multiple libraries, libodfgen can be used to
+generate ODF from many sources.
+
+BUILD DEPENDENCIES:
+
+* librevenge
+* libxml2
+* pkgconfig (for the build system to find librevenge)
+* doxygen (unless you choose to disable building of API documentation)
+
+BUILD AND INSTALLATION:
+
+Build and installation on Unix/Linux should be simple. Simply execute
+the following sequence of commands:
+
+./configure ; make ; su -c 'make install'
+
+This will make + install a libodfgen library and all files needed to use the
+library from your code.
+
+LINKS:
+
+boost is available at http://www.boost.org

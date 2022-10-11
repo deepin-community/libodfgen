@@ -1,0 +1,3996 @@
+2021-01-06  ALONSO Laurent  <laurent.alonso@inria.fr>  [8119035756c9d11e7bf523c5d7cc66dbf78a9238]
+
+tconfigure.ac: update micro revision to prepare a release...
+
+
+2021-01-06  ALONSO Laurent  <laurent.alonso@inria.fr>  [6d82aa26dc48d78c27a79a73bd1709f1efbc8f20]
+
+tappendXML: try to retrieve the main namespace...
+
+
+2020-12-30  ALONSO Laurent  <laurent.alonso@inria.fr>  [03c5eea6955159a12f25aee814b7f61d744ee7d6]
+
+tcppcheck: correct some warnings...
+
+
+2020-12-30  ALONSO Laurent  <laurent.alonso@inria.fr>  [7de53ec507101319c5decc910619d1b1d06322da]
+
+tastyle: ...
+
+
+2020-12-30  ALONSO Laurent  <laurent.alonso@inria.fr>  [208f71f73db30ef822f2e8cc878cb9d61ede9314]
+
+tupdate README/NEWS files...
+
+
+2020-12-30  ALONSO Laurent  <laurent.alonso@inria.fr>  [42498362815191152f4583dd18b2c055402835ce]
+
+tconfigure.ac: HAVE_VISIBILITY must be always defined...
+
+
+2020-12-30  ALONSO Laurent  <laurent.alonso@inria.fr>  [2edf8af587d538b2982de93c23616ce82e2594bd]
+
+tGraphicStyle.cxx: try to retrieve style:print-content src/OdfGenerator.cxx: try to retrieve text:bookmark-{start|end}
+
+
+2019-12-07  Miklos Vajna  <vmiklos@collabora.com>  [a596b8f5eb57ddcb39a2e6818e190d4570d14e84]
+
+tDon't access static members through instance
+
+
+2019-12-07  Miklos Vajna  <vmiklos@collabora.com>  [dd7801667f1985fe0fb5ba7c3d9678506b570693]
+
+tMake these member functions static
+
+
+2019-12-07  Miklos Vajna  <vmiklos@collabora.com>  [bc3dccc7fd3cdf3b62b41f4f3c1876134a0b2a18]
+
+tUse nullptr
+
+
+2019-12-07  Miklos Vajna  <vmiklos@collabora.com>  [61db52fa1c9f4eebb8f14f150cb9ab6b7c597e8e]
+
+tUse range-based for loop
+
+
+2019-11-24  Miklos Vajna  <vmiklos@collabora.com>  [38aacbd4fc0606f6cf5ca4b11608750d607acaf4]
+
+tReadability: make these member functions const
+
+
+2019-11-23  alonso  <laurent.alonso@inria.fr>  [5110672e4a0ba071fdfb53830c5a7f6ca6a8be58]
+
+tOdgGenerator[picture]: retrieve draw:z-index
+
+
+2019-11-22  alonso  <laurent.alonso@inria.fr>  [2626a260c60abb26cb5fb13f2c989bb807e557a2]
+
+tOdgGenerator[text box]: retrieve draw:z-index...
+
+
+2019-05-24  ALONSO Laurent  <laurent.alonso@inria.fr>  [0f8a5b79ee841afa8b4beee53957cb2785a7249a]
+
+tOdsGenerator: does not output double with std::fixed...
+
+
+2019-04-11  ALONSO Laurent  <laurent.alonso@inria.fr>  [fbe6bf59e3dd863f6a937354a446f3a178b31d2c]
+
+tGraphicStyle.cxx: retrieve draw:auto-grow-width,draw:fit-to-size,style:shrink-to-fit
+
+
+2019-03-31  David Tardon  <dtardon@redhat.com>  [f3e5e16a6da8dac0abcdf048a058d4110a155f3b]
+
+tdo not reinvent the wheel
+
+
+2019-01-19  Miklos Vajna  <vmiklos@collabora.com>  [353c97f0163a9a6d8460445ace725cfe4cda50eb]
+
+tFix too small loop variables
+
+tThese loop variables had narrower type 'unsigned int' than the iteration's
+tupper bound 'unsigned long'.
+
+2018-12-29  David Tardon  <dtardon@redhat.com>  [13d8c49e1a04f71ccdc512e3ae0f15614d10dd18]
+
+tWaE: drop unnecessary parentheses
+
+
+2018-12-29  David Tardon  <dtardon@redhat.com>  [465256d662e306769adf9e47ae31e31b79e1def3]
+
+tcheck for __attribute__((visibility)) too
+
+
+2018-08-19  osnola  <alonso@loria.fr>  [e5bc388a6710bedc105b7422549f1d1cde49c829]
+
+tOdfGenerator.cxx: retrieve table:table-background attribute + do not create headers in odp table...
+
+
+2018-08-19  osnola  <alonso@loria.fr>  [80156c071c3d881f82f686ddd39c401a3e68080c]
+
+tsheet: emit style:row-height instead of style:min-row-height as    LibreOffice seems to ignore style:min-row-height...
+
+
+2018-07-19  osnola  <alonso@loria.fr>  [78c936032632e8fc0eb258f699b8623eb6ad9be4]
+
+tOdgGenerator: define xmlns:number...
+
+
+2018-07-19  osnola  <alonso@loria.fr>  [7ecea2f3eed53092cdc912c6eb713de9abd9a57c]
+
+tTableStyle.cxx: try to retrieve more borders when generating odg/p.
+
+
+2018-06-17  David Tardon  <dtardon@redhat.com>  [5e9ab6abfc6915b4f3c9cceb48f3d527ef37adc3]
+
+tallow building with gcc 4.8
+
+tregex is really supported only from 4.9 up.
+
+2018-06-16  David Tardon  <dtardon@redhat.com>  [cb0e97de34b694f92b3ace3f04d4a01e334f6b2e]
+
+tfix out-of-tree build of tests
+
+
+2018-06-12  osnola  <alonso@loria.fr>  [c2825b346522b47f965758588573022c53e6cb45]
+
+tupdate NEWS
+
+
+2018-06-12  osnola  <alonso@loria.fr>  [8acf75b609833da7e756c603050e6c8e8283da5d]
+
+tconfigure.ac: update minor version to prepare a release...
+
+
+2018-06-12  osnola  <alonso@loria.fr>  [50c04f7bc83a989a66267aa43758196abc2c0a9b]
+
+tcppcheck: correct some warnings...
+
+
+2018-05-31  osnola  <alonso@loria.fr>  [84d21f13b3f47efc4ab7bc02b026f4d414f11fb5]
+
+tSheetStyle.cxx: generate valid xml's file if the column numbers   appearing in formula are negative or too big...
+
+
+2018-05-05  David Tardon  <dtardon@redhat.com>  [24a92a2dfb98b779e6bf95208068bebe1e91b2a1]
+
+tWaE: drop unnecessary parentheses in decl.
+
+
+2018-05-05  David Tardon  <dtardon@redhat.com>  [41e1033859e7a896e0ea3654d823253881294c7e]
+
+tdisable werror by default
+
+
+2018-04-20  osnola  <alonso@loria.fr>  [a4f749bc0f1ece2ac52936c2fad5b8880a443caa]
+
+tSheetStyle.cxx[formula]: add code to retrieve columns or rows ranges...
+
+
+2018-04-01  David Tardon  <dtardon@redhat.com>  [11a25fa851899df5cedb3065985e458a371c893d]
+
+tuse unique_ptr
+
+
+2018-04-01  David Tardon  <dtardon@redhat.com>  [c86b66dce1cdb38a6bad8b7985b63929ade75c1a]
+
+tuse unique_ptr
+
+
+2018-04-01  David Tardon  <dtardon@redhat.com>  [06f6b3460d06451adc85e3cf051c71d48b3789fb]
+
+tuse shared_ptr
+
+
+2018-03-25  David Tardon  <dtardon@redhat.com>  [28d0c26e303f87a31f78206486246f5ce263a957]
+
+tput own header first to ensure it is self-contained
+
+
+2018-03-25  David Tardon  <dtardon@redhat.com>  [42644ee92b3732af1756396451b3794efecdd62a]
+
+tone definition of M_PI is enough
+
+
+2018-03-25  David Tardon  <dtardon@redhat.com>  [1744700d85f51a85faf4ea86b1cfb2d5e4e8ac14]
+
+tuse std::shared_ptr with full namespace
+
+tWe no longer offer to pick shared_ptr from either std or boost, so this
+tdoesn't make sense anymore.
+
+2018-03-25  David Tardon  <dtardon@redhat.com>  [9ed91711705ea328bb690fd2fe4e75d6488ee43c]
+
+tuse unique_ptr
+
+
+2018-03-25  David Tardon  <dtardon@redhat.com>  [3c2838795f1b02628c4676baf7dee64ed7e6b2d6]
+
+tnitpick: shorten a bit
+
+
+2018-03-25  David Tardon  <dtardon@redhat.com>  [402ca949282f2de850d81435035cf032b03f0868]
+
+tuse shared_ptr
+
+
+2018-02-04  David Tardon  <dtardon@redhat.com>  [65b53ff8d068f94ec4a9ff7a88cffd121aa805a8]
+
+tlibwpd#15 write correct cell range ref
+
+
+2018-02-01  David Tardon  <dtardon@redhat.com>  [eccd42d93cf2be88e1cbb8a9007e98c57c6b69e6]
+
+tWaE: unnecessary parentheses in declaration
+
+
+2018-01-30  osnola  <alonso@loria.fr>  [af8f913bf81daf33c99bf415c8e73e525be5a28e]
+
+tOd*Generator.*xx: add a function appendBodySettings to retrieve    potential settings "table:calculation-settings", ... in the    properties given to startDocument.
+
+
+2018-01-30  osnola  <alonso@loria.fr>  [1cddefe5b571c059f486e1abb44a09436172b4a7]
+
+tOdfGenerator.cxx: astyle's correction
+
+
+2018-01-30  osnola  <alonso@loria.fr>  [4645e484c88ae5450ba7ee7ddaa69a71ba65b6cd]
+
+tOdcGenerator.cxx: allow OdcGeneratorPrivate::getAddressString to   retrieve a list of references + correct various mistakes...
+
+
+2018-01-29  ryanjmulder  <rjmyst3@users.sourceforge.net>  [91731130e263ec8752f4abf1d8041f04f2d1288b]
+
+tOdcGenerator: the attribute for chart:domain should be table:cell-range-address, not table:cell-range.
+
+
+2017-12-20  Miklos Vajna  <vmiklos@collabora.co.uk>  [c0ab4fd14fc4e1aaa5f56a3e04a029ae4f15f09e]
+
+tPageSpan: ensure ContentType is signed
+
+tOtherwise the "type<0" in PageSpan::storeContent() makes no sense.
+
+2017-11-26  osnola  <alonso@loria.fr>  [76f6c289e708c04c17a21f4439c3b91afe806e33]
+
+tMathML: add functions to retrieve MathML attachments:   - implement insertEquation in Od[ts]Generator.cxx   - add a insertEquation in OdfGenerator which      + checks that the mimetype is "application/mathml-presentation+xml" 	   or "application/mathml+xml"      + parse the MathML strings (so we can use the basic TagOpenElement method, ...)      + unescape all html code and replace them by theirs unicode representation         (to avoid unexpected escaping in writerperfect, ...)   - modify insertBinaryObject in OdfGenerator to call insertEquation when      the mimetype is "application/mathml-presentation+xml" or "application/mathml+xml" 	(so we can add equation in od[gp] files).
+
+
+2017-11-16  David Tardon  <dtardon@redhat.com>  [c00b3cea11f1296f23f0349a3a0cb5ede91816d0]
+
+tWaE: declaration of 'isMasterPage' shadows a member of 'this'
+
+
+2017-10-29  Miklos Vajna  <vmiklos@collabora.co.uk>  [9a4426d64f5a7ea8723b669594fa0ba3e7ac928c]
+
+tUse auto when declaring iterators and when initializing with a cast
+
+
+2017-10-28  David Tardon  <dtardon@redhat.com>  [522f05a5d8d51557525b4633cfb5fa54877149b6]
+
+tdrop outdated MSVC project files
+
+
+2017-10-01  osnola  <alonso@loria.fr>  [784d55a038d506c7572cd9f1daa82da91a3ec241]
+
+tOdcGenerator: add code to retrieve the axis' title...
+
+
+2017-09-13  osnola  <alonso@loria.fr>  [cf3a9fb3743bf477aea058fbedbcc689f61b5229]
+
+tOdcGenerator.cxx : allow to retrieve axis's values-cell-range-address...
+
+
+2017-09-10  Miklos Vajna  <vmiklos@collabora.co.uk>  [ebcf2c82d83dcc81fd48168048aab06a583c6c8a]
+
+tm4: MSVC defines __cplusplus as 199711L still
+
+tSee e.g.
+t<https://stackoverflow.com/questions/37503029/cplusplus-is-equal-to-199711-in-msvc-does-it-support-c11>,
+ton MSVC we can't depend on the value of __cplusplus, since that one is a
+ttoo low value, even if everything else works fine.
+
+2017-09-03  osnola  <alonso@loria.fr>  [40673ed77bc07fd83b2144f5c89cc5a7613b2020]
+
+tOdcGenerator: try to retrieve more chart's attributes, SheetStyle: allow to add external references in formula.
+
+
+2017-08-02  osnola  <alonso@loria.fr>  [9db90085952dc3adc90f98a6f39876dd482f7358]
+
+ttest/StringDocumentHandler.hxx: add some final keywords...
+
+
+2017-07-31  Miklos Vajna  <vmiklos@collabora.co.uk>  [65d0852a2b6b1fc6f777e98bb314fdfeeae42816]
+
+tConvert explicit for loops to range-based ones where possible
+
+tThis is most useful in places like OdfGenerator::addFrameProperties() to
+tavoid repeating ourselves.
+
+2017-07-30  Miklos Vajna  <vmiklos@collabora.co.uk>  [263d29b34a266e9139d5104ec3bd09c93879d04c]
+
+tConvert 0 to nullptr where it's used as a pointer value
+
+tTo make the code easier to read, because this means the remaining zeros
+tall mean numbers.
+
+2017-07-30  osnola  <alonso@loria.fr>  [1958faa0423ad08eaca763d6cdc50e9551440b10]
+
+tReplace HAVE_GCC_ATTRIBUTE_FORMAT by HAVE_FUNC_ATTRIBUTE_FORMAT...
+
+
+2017-07-29  Miklos Vajna  <vmiklos@collabora.co.uk>  [eeb5406a323633bda0538f614922ab62fac7f0f4]
+
+tMark overriding member functions as 'override'
+
+tThis does not affect the generated code (API or ABI), but:
+
+t1) Makes sure that in case the signature of one of these functions would
+tchange by accident, the build breaks as the function no longer overrides
+ta base function.
+
+t2) Makes the code readable by explicitly marking all overriding
+tfunctions as 'override', where previously the reader had to read the
+tinterface of the base class(es) as well to find out if the function is
+tvirtual or not.
+
+t3) Since 'override' implies 'virtual', remove the 'virtual' keyword
+twhere 'override' is present.
+
+2017-05-16  David Tardon  <dtardon@redhat.com>  [e1fb1033885b980f87736f01b10d57a309caff88]
+
+tdrop :: prefix
+
+
+2017-05-03  David Tardon  <dtardon@redhat.com>  [fe23baef2e77b95c2003abd52e971bd96ae7cda0]
+
+treplace class DocumentElementVector by a typedef
+
+
+2017-05-03  David Tardon  <dtardon@redhat.com>  [acba9c9d04cc6bf1f0d02ae7b41e5401a788d101]
+
+tmove check for __attribute__((__format__)) to configure
+
+
+2017-05-03  David Tardon  <dtardon@redhat.com>  [d7a2ca6a7138da2fd4e6193386dfcd7cf8d1eafe]
+
+tdrop stray include
+
+
+2017-05-03  David Tardon  <dtardon@redhat.com>  [68a06149b251a16a23cd616ed706100e4d8e6340]
+
+tavoid manual memory management
+
+
+2017-05-03  David Tardon  <dtardon@redhat.com>  [00ab3f857f519df9f0862da7d3bff5165fba9f7e]
+
+tastyle
+
+
+2017-05-03  David Tardon  <dtardon@redhat.com>  [c289d91edaca1f5d030b31105a182850364f6418]
+
+tdrop useless parentheses
+
+t... that cause formatting change with newer version of astyle.
+
+2017-05-03  David Tardon  <dtardon@redhat.com>  [e11112e50562de4f3252227bfba175ededf82194]
+
+tboost::shared_ptr -> std::shared_ptr
+
+
+2017-05-03  David Tardon  <dtardon@redhat.com>  [34247fbb3d6490875078eb85734fe1d56ccb6c8b]
+
+tswitch to C++11
+
+
+2017-05-03  David Tardon  <dtardon@redhat.com>  [590be0b28ff5b976fa1f6d38739751fa1a70f1e4]
+
+tignore tags
+
+
+2017-05-03  David Tardon  <dtardon@redhat.com>  [f0b84c6f7ef30630ad420371a91e1235a850c5f2]
+
+tonly ignore auto-regenerated files in m4
+
+
+2017-03-24  osnola  <alonso@loria.fr>  [9fc188fe8377fc8d1a8dac027443bf0d7f5c622e]
+
+tOdpGenerator: add also xmlns:number to the document property list...
+
+
+2017-03-04  osnola  <alonso@loria.fr>  [4a8ec1fc12a1e25696fc606064d9d6e62cd40e5c]
+
+tSheetStyle.cxx: do not ignore "style:use-optimal-row-height" attribute...
+
+
+2017-02-21  osnola  <alonso@loria.fr>  [92c46d04b083b065be508fd9959123feb76bc8f4]
+
+tOdfGenerator: force frame properties to be defined when we define a style, ...
+
+
+2017-01-09  osnola  <alonso@loria.fr>  [cec30554d23a77e142490088e5ee87f21b29a836]
+
+tSheetStyle.cxx: allow to define the cell's left margin...
+
+
+2016-11-21  osnola  <alonso@loria.fr>  [5633c3ad9201c71d239c2e0a35f26ebc43d3118a]
+
+tListStyle.cxx: allow to retrieve the item's color...
+
+
+2016-08-12  David Tardon  <dtardon@redhat.com>  [68e0c8e4c834df57bc9a0e8da72151f69ff5e7a6]
+
+ttdf#101077 make double->string conversion locale-agnostic
+
+
+2016-08-05  osnola  <alonso@loria.fr>  [3b25982dc36b1382d7b37faf56c880d3d2b4503c]
+
+tListStyle.cxx: allows to use a different font for a level item...
+
+
+2016-08-04  osnola  <alonso@loria.fr>  [80c4251747400461a0b75fee3de7f8322b388965]
+
+tOdfGenerator: create a stack to store paragraph/outline status   to avoid potential creation of invalid files...
+
+
+2016-08-03  osnola  <alonso@loria.fr>  [b730fe1ba43329879cb72e6114087fc6c9a42730]
+
+tOdfGenerator: try to accept more kind of fields...
+
+
+2016-07-04  osnola  <alonso@loria.fr>  [88dca41e4b70759b9b374be0f6241c91dcc73915]
+
+tTextRunStyle: try to retrieve more span properties...
+
+
+2016-07-04  osnola  <alonso@loria.fr>  [2bf87634bd12ac470b781e1b1ca7922377fa15e9]
+
+tTextRunStyle: allow paragraphs to include some style:drop-cap...
+
+
+2016-07-04  osnola  <alonso@loria.fr>  [b3cf16b535fb66d130b4fef18e4fa730b66d86df]
+
+tOd[gp]Generator: allow a picture to be defined with librevenge:xlink...
+
+
+2016-04-17  osnola  <alonso@loria.fr>  [66d85c2fcd44d88f76423143d379143401c0d064]
+
+tNumberingStyle.*xx: create a manager to store the NumberingStyle, OdfGenerator.cxx: allows insertField to define the date/time format.
+
+
+2016-04-10  osnola  <alonso@loria.fr>  [0c9ac520cb91d5643c8aa45bbfe624ebce3a5183]
+
+tOdpGenerator: generate page-span for pages which have some master pages,  + recognize some presentations smil properties..
+
+
+2016-04-10  osnola  <alonso@loria.fr>  [22db6bb846371477b4b795308c6dc91dd5912ca0]
+
+tGraphicStyle: recognize draw:auto-grow-height properties...
+
+
+2016-04-10  osnola  <alonso@loria.fr>  [85d255075ccdcb6b0febf666465d7362299bc36a]
+
+tOdtGenerator: do not forget to set style:master-page-name if the first    paragraph is a list, OdfGenerator: allow some images to be defined with xlink...
+
+
+2016-04-10  osnola  <alonso@loria.fr>  [f02891c6cb143a9628eac23b2f46ad6118cd90bc]
+
+tPageSpan: create style:drawing-page properties, ... for all pages.
+
+
+2016-01-19  osnola  <alonso@loria.fr>  [5320aef433c78eba8dd6c09b08355639da4fed11]
+
+tGraphicStyle.*xx: check inheritance for children of named graphic styles.
+
+
+2016-01-18  osnola  <alonso@loria.fr>  [e74941c5577866dc502adfdcbe84c94e6c4246b8]
+
+tFillManager.*xx: check inheritance for children of named graphic styles.
+
+
+2016-01-17  osnola  <alonso@loria.fr>  [0be9856f595b1dbc4074e460cf4a6f3aea720ce5]
+
+tGraphic styles: do not generate uneeded gradient/hash when generating   named styles...
+
+
+2016-01-17  osnola  <alonso@loria.fr>  [59a0651e78b006e96d7c7fa61f077aa5f3b23a60]
+
+tGraphic styles and "minimal code to define named graphic styles":   minor correction...
+
+
+2016-01-17  osnola  <alonso@loria.fr>  [d7a474446e2060f7b00f5906666840325ad8d5f1]
+
+tGraphic styles: minimal code to define named graphic styles   (defined with "style:display-name" attribute),    and styles derivating from these styles   (defined with ""librevenge:parent-display-name" attribute).
+
+tNote: currently, I only code inheritance on the main style
+t (ie. not the inheritance on the sub styles: draw:marker, draw:gradient,
+t ...), so :-~
+
+2016-01-17  osnola  <alonso@loria.fr>  [82b08cf6fcb147cfc198d1d9fcba4fe5c958f9b9]
+
+tOdfGenerator.cxx:   - allow to define arc, cut, ... in drawEllipse,   - allow to define "complex" transform in drawRectangle and in drawEllipse,   - force definition of named graphic's styles, to be continued...
+
+
+2015-12-30  David Tardon  <dtardon@redhat.com>  [86a19b98d0ea70d274b362de9efd7dca3e7d6f19]
+
+tupdate NEWS
+
+
+2015-12-26  David Tardon  <dtardon@redhat.com>  [f9a5183603b417c27d11b2f79a54c2674bfbd08b]
+
+tsimplify installation of headers
+
+
+2015-12-25  osnola  <alonso@loria.fr>  [e9ab2760712b4e4488aa019f4af4da2dd1a0091e]
+
+tOdsGenerator: oops, increase correctly the values' precision when unit   is librevenge::RVNG_PERCENT (even if this must not appear)...
+
+
+2015-12-25  osnola  <alonso@loria.fr>  [4f1f6ee9c0f2ec302cecab4bebdb9ad66759625d]
+
+tPageSpan: allow to define the header/footer-style's styles, ...
+
+
+2015-12-23  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [5969e3c5ea203c64e5efff158ad6e3289733d566]
+
+tHandle the label font and font-size in ordered lists too
+
+
+2015-12-22  osnola  <alonso@loria.fr>  [30cd1a289bb8f63e5ced716d4057942c7825c026]
+
+tOdsGenerator: try to increase the values' precision, ...
+
+
+2015-12-20  osnola  <alonso@loria.fr>  [752e2536f0530e8e21593767014b529444d82724]
+
+tSheetStyle: add support for numbering format "number:era"...
+
+
+2015-12-18  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [0569b649b07b5dc134881dd2217c896638f04b06]
+
+tSome basic text-properties for the list styles
+
+
+2015-12-18  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [30e69b3535911359dd567b8e2eb8489209f05808]
+
+tYes, but LO will anyway kill the other characters and who knows whether someone else will support it
+
+
+2015-12-17  osnola  <alonso@loria.fr>  [02ec80afe0b6266d10bf6813ddc84f51357b6473]
+
+tSheetStyle: retrieve more cell's attributes...
+
+
+2015-12-14  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [7ff2703c1a06af58523446b415824785e878ef35]
+
+tTry to make the hatching actually work
+
+
+2015-12-14  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c885e92b6c7a391e393e9ca6114f486bd1418c9c]
+
+tCompute the print orientation from page dimensions
+
+
+2015-12-14  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [85edaa42ff06849943f57757983b2f76f736f8f7]
+
+tVisibility and printability of an object
+
+
+2015-12-06  David Tardon  <dtardon@redhat.com>  [36763fd2032d9d9334d91f41e467477986b89937]
+
+tdo not check for the prop again and again
+
+
+2015-12-06  David Tardon  <dtardon@redhat.com>  [d94bef8b09961314e992e2db229a258ece4e3108]
+
+tadd support for hatches
+
+
+2015-12-02  osnola  <alonso@loria.fr>  [e87741086f91857e2909d54aa1dc44dc56f0f65e]
+
+tRevert "Od[gp]Generator.cxx: we need to keep draw:name when a page has some name..." ; in fact, the previous code was working, sorry :-~
+
+tThis reverts commit 572f18634a23d08c4b16b5621fedec7aca2f10cc.
+
+2015-12-02  osnola  <alonso@loria.fr>  [572f18634a23d08c4b16b5621fedec7aca2f10cc]
+
+tOd[gp]Generator.cxx: we need to keep draw:name when a page has some name...
+
+
+2015-11-29  osnola  <alonso@loria.fr>  [b07c173e521d4fe20b6bb28a38d9eb4dc89451d3]
+
+tlibodfgen.dsp: try to update this file...
+
+
+2015-11-29  osnola  <alonso@loria.fr>  [0d19b7f250647c2f9ca3b0436849b03dd67f6b8b]
+
+tMerge branch 'master' of ssh://git.code.sf.net/p/libwpd/libodfgen
+
+
+2015-11-25  David Tardon  <dtardon@redhat.com>  [831e8c46fb78b42d2ad3b3e6b8fb52ccf8bafe47]
+
+tcorrectly generate page fill
+
+
+2015-11-25  David Tardon  <dtardon@redhat.com>  [638960b33b9dfec96f820dce453c1c48f58cb6e1]
+
+tfactor fills out of graphic style manager
+
+tThey is needed for page drawing styles as well.
+
+2015-11-23  osnola  <alonso@loria.fr>  [cc4337261e7fad10adfb880e20255a7c241563e8]
+
+ttest/*xx: catch potential exceptions...
+
+
+2015-11-22  David Tardon  <dtardon@redhat.com>  [1ccd7a624c639f8c166f347a733514d14238f0fa]
+
+tdetect a few more props related to fill bitmaps
+
+
+2015-11-22  David Tardon  <dtardon@redhat.com>  [01812c2526a523f544ea93af23ed938e04cb3c20]
+
+tadd a todo
+
+
+2015-11-22  David Tardon  <dtardon@redhat.com>  [2c9447f05727691aae8a44111266dc00f940b16b]
+
+thandle passed drawing page properties
+
+
+2015-11-15  osnola  <alonso@loria.fr>  [dbde5938e1e19aa8b04285b083efaec870ffb960]
+
+tspreadsheet: add the "matrix operators"
+
+
+2015-11-13  osnola  <alonso@loria.fr>  [400297ba74257c735a27a148ec78aedb98ee8cc8]
+
+tspreadsheet: add basic support to table:number-matrix-columns/rows-spanned, just to complete the list...
+
+
+2015-11-13  osnola  <alonso@loria.fr>  [b42e1dd7f10db91b2b11d12161e8567fe4f5da9c]
+
+tTableStyle: skip table:number-columns/rows-spanned when checking if a           similar style already exists...
+
+
+2015-11-12  osnola  <alonso@loria.fr>  [2f531c09e21ae65dd55e30e671976524836f2808]
+
+tSheetStyle: skip also table:number-columns/rows-spanned when checking if a       similar style already exists...
+
+
+2015-11-12  Sean Young  <sean@mess.org>  [bf488e569d6a5c08afcf15f4b456d17ab97d48a4]
+
+tAllow page number field to be different that current
+
+
+2015-11-06  David Tardon  <dtardon@redhat.com>  [b070e7de7e43f0cb6a1222d597705dbd8005b389]
+
+tavoid hardcoded constant
+
+
+2015-11-06  David Tardon  <dtardon@redhat.com>  [e2d31e071b07bf608e104e247a976947891e51e6]
+
+tdrop meaningless micro-optimization
+
+
+2015-11-06  David Tardon  <dtardon@redhat.com>  [73357b0e906714433dbac52540a8a4e24d705edc]
+
+tavoid hardcoded constant
+
+
+2015-11-06  David Tardon  <dtardon@redhat.com>  [4dc7d999b080d6d7d6cd8f0f6e4efabde24fbdea]
+
+tdrop meaningless micro-optimization
+
+
+2015-11-03  osnola  <alonso@loria.fr>  [a5efeee6956f8cef5f16eb5d83553b81b8e6b061]
+
+tOdsGenerator: only send table:number-columns/rows-spanned when the number  of spanned columns/rows is greater than 1 SheetStyle: skip table:number-columns/row-repeated when checking if a   similar style already exists...
+
+
+2015-11-01  osnola  <alonso@loria.fr>  [f3618bbf26e50bcc776d1f0cfb11dcff6fcafdf6]
+
+tOdfGenerator.cxx and OdsGenerator.cxx: allow to send graphic's   anchored to a sheet's cell by setting table:end-cell-address OdsGenerator.cxx: allow to send repeated sheet's row/cell by setting   table:number-rows-repeated/table:number-columns-repeated SheetStyle.*xx: allow to repeat column's widths by setting   table:number-columns-repeated
+
+
+2015-10-30  osnola  <alonso@loria.fr>  [c47422e5246c78682bd53eb00acba403ae929e19]
+
+tSectionStyle: remove unused declaration of rint...
+
+
+2015-10-26  osnola  <alonso@loria.fr>  [9ae175e8e098ef731ec6df45e284d4ef6a872c76]
+
+tOdsGenerator: do not forget to merge asked cells :-~
+
+
+2015-10-24  osnola  <alonso@loria.fr>  [8e9554dae4a9b2899dea352316c54c3671ae02df]
+
+tBump micro version's number...
+
+
+2015-10-24  osnola  <alonso@loria.fr>  [5109e2d2d68ed9c7033206d6a6f0a6cb401c7731]
+
+tOdfDocumentHandler.hxx: do not add attribute to enums, mingw32-g++ do not like that, configure.ac: check correctly if we need to add --std=c++11 + update NEWS file
+
+
+2015-10-03  osnola  <alonso@loria.fr>  [653de2329a6cc5f0c4751245ce5e90144b18f337]
+
+tSheetStyle.cxx: add some operators (plage, union, intersection and %)    + accept also "librevenge:sheet-name" to define the sheet's name...
+
+
+2015-08-30  David Tardon  <dtardon@redhat.com>  [42f6ef8f4428e3d352166a45d179b0bd57db7a22]
+
+tautomatically pass -std=c++11 if needed
+
+
+2015-08-30  David Tardon  <dtardon@redhat.com>  [473698347afd9c4f53151ea2c82229640f3d5912]
+
+tremove unused argument
+
+
+2015-07-19  osnola  <alonso@loria.fr>  [ce4a03ca92873343c526f514f0e3a6353530cf69]
+
+tOdfGenerator: implements librevenge:replacement-objects...
+
+
+2015-06-23  David Tardon  <dtardon@redhat.com>  [8ef8c171ebe3c5daebdce80ee422cf7bb96aa3bc]
+
+tfix typo
+
+
+2015-06-23  osnola  <alonso@loria.fr>  [d55c58fad462a95db8474a240cef7236f5e98ac9]
+
+tGraphicStyle: also allow to set the opacity value:"draw:opacity" for surfaces which contain patterns, + add minimalist implementation of "measure": if drawPolyline is called with two points and draw:show-unit is set,   then create a draw:measure tag instead of a draw:line...
+
+
+2015-05-19  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [9b8e077429dd5cb3a5b3eb92aa86ef6a7204e2f5]
+
+tFixing werror build and wondering why developers don't use it :(
+
+
+2015-05-17  osnola  <alonso@loria.fr>  [6066227bc5d23b3d5ead3f1e7d4277e4c5484591]
+
+tconfigure.ac: bump version...
+
+
+2015-05-17  osnola  <alonso@loria.fr>  [4300376e1617ffe93dde3bcb79e7031ee9707f83]
+
+tupdate version and NEWS + add an ODFGENAPI inside the "enum OdfStreamType"'s definition
+
+
+2015-04-30  osnola  <alonso@loria.fr>  [a6313a2e7e32203e91c5839af4385d1cadc7d8ed]
+
+tOdgGenerator: call start/end document when generating the manifest...
+
+
+2015-03-13  osnola  <alonso@loria.fr>  [0754ba477b346eb09ab7237b2a1387f1fac74903]
+
+tMakefile.am: add an astyle command, FilterInternal.hxx: try to improve the format attribute's definition, configure.ac: add again -Wformat=2 in paranoic mode (as it must now works again).
+
+
+2015-03-12  osnola  <alonso@loria.fr>  [af0068ed46bb09c935a767825640f45ed4d4adb4]
+
+tdebugPrint: add a format's attribute to check ODFGEN_DEBUG_MSG arguments...
+
+
+2015-03-12  osnola  <alonso@loria.fr>  [7913f208bb249b08de325efffe96b6543bfeb15f]
+
+tRemove some warnings when compiling with g++-5 with -wparanoic...
+
+
+2015-03-12  osnola  <alonso@loria.fr>  [158d1b68fe8fb4911a3c8d36d10833fff28a125f]
+
+tnumbering styles: change behavior of defineSheetNumberingStyle to define a style for the whole document   (and not only for the current sheet), this seems more logical...
+
+
+2015-02-27  Mihai Varga  <mihai.varga@collabora.com>  [3c856810b7636a3331fc8afea8e618e9c0c073db]
+
+tAdded handler for 'template' metadata
+
+tSimilar user defined metadata are also handled togheter
+
+tSigned-off-by: Miklos Vajna <vmiklos@collabora.co.uk>
+
+2015-02-02  David Tardon  <dtardon@redhat.com>  [969f06e2c3bc76eac78dfea71f9311a8d2e4dd19]
+
+tsf#5 remove bashism
+
+
+2015-01-29  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [4dddb201f5410c2bd71f1cfa640487472b612749]
+
+tUpgrade the doxygen configuration file
+
+
+2015-01-28  Miklos Vajna  <vmiklos@collabora.co.uk>  [209284914a4389930db761f3b94efd830919e762]
+
+tOdfGenerator::setDocumentMetaData: handle librevenge:category
+
+
+2015-01-05  David Tardon  <dtardon@redhat.com>  [4fefe8dd5138a9a19c6aa79bed75d37604e7b7a7]
+
+tensure draw:name is escaped
+
+tSigh. We should really escape all properties we pass through,
+teverywhere. But it is easier to fix just the special cases that need it.
+
+2015-01-02  David Tardon  <dtardon@redhat.com>  [6a70310c3f9c50940fb2a76d8d2c2e64d43d03f4]
+
+tignore version if not available
+
+
+2015-01-02  David Tardon  <dtardon@redhat.com>  [0549d399ea371a53e9cb4d635489af5a4614bc6f]
+
+tdo not bother with PACKAGE macro
+
+
+2015-01-01  Miklos Vajna  <vmiklos@collabora.co.uk>  [c1657b5b3ec30538229b62a07093189bcb4f57e4]
+
+t#if -> #ifdef
+
+
+2015-01-01  Miklos Vajna  <vmiklos@collabora.co.uk>  [d513b141c7da6160ea812a5f43306d6172fc2eed]
+
+tFix build when HAVE_CONFIG_H is not defined
+
+
+2015-01-01  David Tardon  <dtardon@redhat.com>  [7189f3faa73c6af92106822ae60c0e084b5c1e68]
+
+tprepare for a new release
+
+
+2015-01-01  David Tardon  <dtardon@redhat.com>  [9f905dd639926b8c1585dd857aa605592bdbaeaa]
+
+tRevert "OdfGenerator::setDocumentMetaData: add support for user-defined attributes"
+
+tWe do not want "multi-level" property names.
+
+tThis reverts commit c022423371a2a2b87b404fc9c75d816450a6f9e5.
+
+2014-12-31  Miklos Vajna  <vmiklos@collabora.co.uk>  [c022423371a2a2b87b404fc9c75d816450a6f9e5]
+
+tOdfGenerator::setDocumentMetaData: add support for user-defined attributes
+
+tMost metadata can be described using a simple key-value pair, like:
+
+t<meta:creation-date>2014-12-30T22:12:09</meta:creation-date>
+
+tHowever, user-defined attributes look like this:
+
+t<meta:user-defined meta:name="category">mycategory</meta:user-defined>
+
+tAdd support for meta:user-defined:category-like keys so that the
+tkey-value API can represent user-defined attributes as well.
+
+2014-12-26  osnola  <alonso@loria.fr>  [a1f1ea276e67813de5c75f6cd26955b69a7cee6d]
+
+tFilterInternal: include <assert.h> to make FontStyle.cxx compile...
+
+
+2014-12-26  David Tardon  <dtardon@redhat.com>  [7b4344d318bafae1842b408db5801b85c703df5e]
+
+tBIPU support for embedded fonts
+
+tLimited to Flat ODF for interoperability reasons.
+
+2014-12-21  David Tardon  <dtardon@redhat.com>  [a8a3f4b1a990e9c9f7acb8a5a36bc56aa66e5226]
+
+tego: export generator
+
+
+2014-12-21  David Tardon  <dtardon@redhat.com>  [ce7953e3395170b34e3f67aba87ef06077257db2]
+
+tastyle
+
+
+2014-12-08  osnola  <alonso@loria.fr>  [63233867757d2747ba678044f63e6b9171061cfd]
+
+tconfigure.ac: remove -Wformat=2 and -Wformat-nonliteral to allow compilation   with --enable-wparanoic in debug mode + add some "new" format's warnings...
+
+
+2014-12-07  Miklos Vajna  <vmiklos@collabora.co.uk>  [f7afd20d5029e416f89a165078b148dca608e36d]
+
+tprint debug messages to stderr
+
+
+2014-12-07  osnola  <alonso@loria.fr>  [56e55cc903678a545148e1eebcc46a67791939fd]
+
+tParagraph style: try to improve the implementation of outline attribute and  to create named styles even if there appear along with a style:master-page-mage attribute...
+
+
+2014-11-30  David Tardon  <dtardon@redhat.com>  [f4312ce54c1cfddeb8d2c96cb9f2192a7d123d36]
+
+tset outline level in style too
+
+
+2014-11-30  David Tardon  <dtardon@redhat.com>  [9fdb8c54861479210b6a577592d2cadd0890c12d]
+
+tavoid use of boost::optional
+
+t... as libodfgen does not have hard dependency on boost yet.
+
+2014-11-29  David Tardon  <dtardon@redhat.com>  [9898b4534940f272cc1dbccb3339e32927b40da9]
+
+ttext:outline-level is not style property
+
+
+2014-11-25  Miklos Vajna  <vmiklos@collabora.co.uk>  [fb43d79e12ce132fc127cc0481ff5a6bdbcd1afe]
+
+tOd[gp]Generator: declare meta namespace
+
+tOther generators had it already, and without this, it's not possible to
+tdeclare creation date.
+
+2014-11-23  David Tardon  <dtardon@redhat.com>  [97812df0150d66c76d720afc472032c43636b5d8]
+
+tprepare for a release
+
+
+2014-11-23  David Tardon  <dtardon@redhat.com>  [6b02d1ed59a5906c88406bcc836edc7496efb40e]
+
+tfix bogus double escaping of metadata values
+
+
+2014-11-23  David Tardon  <dtardon@redhat.com>  [9351627e762b8d1439915cb21d7be2778ad5fd07]
+
+tadd compile to .gitignore
+
+
+2014-11-23  David Tardon  <dtardon@redhat.com>  [35d6d420611e58312271344eb06e2979ed69f724]
+
+tonly export public symbols
+
+
+2014-11-23  David Tardon  <dtardon@redhat.com>  [43f785610022a1bbb698c8bc5248a8ebf043d2dc]
+
+tadd vim modeline to configure.ac
+
+
+2014-09-14  osnola  <alonso@loria.fr>  [1a47e7b685953521425dcf343e7dcd4a852c7fc2]
+
+tMerge branch 'libodfgen-experimental'
+
+
+2014-09-14  osnola  <alonso@loria.fr>  [e2da13def1224eea17f798575ace0fc1043e30ae]
+
+tOdpGenerator: replace style:para-properties(which does not seem to exist) by style:paragraph-properties.
+
+
+2014-09-08  osnola  <alonso@loria.fr>  [b66c5546ce5582564f32829e523e1f9b42b38645]
+
+tOdpGenerator: no longer suppose that all properties are given in inches...
+
+
+2014-09-02  osnola  <alonso@loria.fr>  [6e98795c58fa4cdbfa3648382eebacc8b354c9f9]
+
+tFilterInternal(DocumentElementVector): use shared_ptr to store the elements + add new basic methods...
+
+
+2014-09-01  osnola  <alonso@loria.fr>  [8fdd8be9d21fe4b56296da32c175435be9cd6165]
+
+tFilterInternal(DocumentElementVector): implement basic vector functions (to avoid to inherit from std::vector)
+
+
+2014-09-01  osnola  <alonso@loria.fr>  [22052ebd4d8e0e16c9c251ac9265faafe92fd73f]
+
+tPageSpan: use PM%i to define page span name (and to avoid potential name's conflict)...
+
+
+2014-09-01  osnola  <alonso@loria.fr>  [b541ba7f6239b94ebbf0a4993a531703d02077f3]
+
+tPageSpan: add a class PageLayoutStyle to avoid dupplicating layout's styles...
+
+
+2014-09-01  osnola  <alonso@loria.fr>  [1314e3bf7aee8f17a349c4042d4f672415c0add3]
+
+tPageSpan: create a class PageDrawingStyle to avoid creating duplicated styles...
+
+
+2014-08-31  Stephan Bergmann  <sbergman@redhat.com>  [326c127819dec214f53f609378d3fa7b63cea4cf]
+
+tAvoid undefined-behavior casts from (potentially negative) double to unsigned
+
+t...which should presumably cast to int anyway, given the values are then passed
+tas printf %i arguments.
+
+2014-08-31  osnola  <alonso@loria.fr>  [4398a81f19c1b7f8c1d8707b3e07adcdcfce04d9]
+
+tOdpGenerator: implement start/endMasterSlide...
+
+
+2014-08-30  osnola  <alonso@loria.fr>  [e3605237051a62d3340e1b00889f3a82e222e68b]
+
+tOdgGenerator: implement start/endMasterPage PageSpan: add function to create named master page and to retrieve them testMasterPage1.cxx: test the creation of master page in a drawing document
+
+
+2014-08-30  osnola  <alonso@loria.fr>  [f5b3bd9cb34de86d18bbe6bc570a00475f46047f]
+
+tFilterInternal: create a class DocumentElementVector to replace all std::vector<DocumentElement *>...
+
+
+2014-08-29  osnola  <alonso@loria.fr>  [d2787ee42bf99f2358203650d3eead51948ed2ce]
+
+tOd[gpst]Generator: try to order the automatic styles generation. PageSpan: add code to store master content + simplify the code
+
+
+2014-08-29  osnola  <alonso@loria.fr>  [cab71104d56bad7327d5505b2673df05f689aa19]
+
+tMinor corrections...
+
+
+2014-08-29  osnola  <alonso@loria.fr>  [0ae70f71fd7d37f09e4b9e4a173a0dcfd6e34d0a]
+
+tOd[gp]Generator: accept svg:width|fo:page-width to define the page's width, and svg:height|fo:page-height ...
+
+
+2014-08-29  osnola  <alonso@loria.fr>  [1b6aef144c998e8ab64643b251b51b5404577de4]
+
+tOdpGenerator: use the pageSpanManager to manage the slide' pages FilterInternal: move dupplicated getInchValue in FilterInternal
+
+
+2014-08-29  Stephan Bergmann  <sbergman@redhat.com>  [94977d48d79d0e56906005d398cf68c21c9e2302]
+
+tAvoid undefined-behavior casts from (potentially negative) double to unsigned
+
+t...which should presumably cast to int anyway, given the values are then passed
+tas printf %i arguments.
+
+2014-08-29  osnola  <alonso@loria.fr>  [30720ec119fdf8e73186a11e6d0c2c9117f548f4]
+
+tOdgGenerator: do not forget to use the page:name :-~ OdfGenerator: use the final layer name for badly nested layer.
+
+
+2014-08-29  osnola  <alonso@loria.fr>  [82b5741a00ce5a25b2574e262058093f6fcff7f7]
+
+tOdgGenerator: use the PageSpanManager to manage pages    + when compiled with MULTIPAGE_WORKAROUND, only reset the margins to 0 if we have several pages... PageSpan: add functions to create style:style with "drawing-page" when needed...
+
+
+2014-08-28  osnola  <alonso@loria.fr>  [f95c26a979709c3447e272975b5fda90ec3c192d]
+
+tAdd a test excutable for layers...
+
+
+2014-08-28  osnola  <alonso@loria.fr>  [56ccffdf06201fead4376f38d57e41dc00406b24]
+
+tPageSpan: add a page span manager, currently used by Od[ts]Generator all: try to write the header/footer and master page automatic style in the automatic section of styles.xml test: add a file to test PageSpan creation
+
+
+2014-08-26  osnola  <alonso@loria.fr>  [1bae29896f3f429b3b9158770bd7107d46e52174]
+
+tPageSpan: create a pageSpanManager to regroup code, to be continued...
+
+
+2014-08-26  osnola  <alonso@loria.fr>  [1fd9ad167dce08b674a973888674f9d5593f1fbc]
+
+tOdfGenerator: modify getLayerName to first look for the presence of draw:layer in propList before using the current layer name.
+
+
+2014-08-26  osnola  <alonso@loria.fr>  [42200a1d7f5cdd4fbf73f2a870f0052e46b33740]
+
+tTry to use more significatif names...
+
+
+2014-08-26  osnola  <alonso@loria.fr>  [ed3dec968d87ef449de397a549d34b4ec2e87da8]
+
+t*Style: add a enum in all styles to define in which zone there must be saved, ... GraphicStyle: add a small class GraphicStyle to store the main graphic style, ListStyle: add a small ListStyleManager.
+
+
+2014-08-24  osnola  <alonso@loria.fr>  [a377902c67258382264d3ea1cf1e30ab9d11ea75]
+
+tParagraphStyleManager/SpanStyleManager: add possibility to force the storage of a style in the basic style zones ( instead of the automatic-style zone) ListStyleManager: creation + move related code from OdfGenerator to ListStyle...
+
+
+2014-08-23  osnola  <alonso@loria.fr>  [1cb3cc8ef10f75f0c40a4ca6708bcf0f2a41c172]
+
+tbasic merge...
+
+
+2014-08-23  osnola  <alonso@loria.fr>  [825e447c6d0451587d45bfca7b0615cbdc0e7370]
+
+tOd[fg]Generator: add code to create true layer if startLayer is called with property draw:lawer, if not continue to create basic group... SheetStyle.cxx: correct some debug message...
+
+
+2014-07-05  David Tardon  <dtardon@redhat.com>  [b6bb95193539302f60870623c64c81f9af279a7b]
+
+tdrop references to libwpd etc.
+
+
+2014-07-04  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [d15e49c012a5ceb0e53b41d2f3ac27634b7d1fd0]
+
+tCompute the array size instead of hardcoding
+
+
+2014-06-24  David Tardon  <dtardon@redhat.com>  [9d2200d20cdc6490ddf9a4e6f9f4a3c9dbf2b4c1]
+
+temit text:h instead of text:p for headings
+
+
+2014-06-23  osnola  <alonso@loria.fr>  [fdc2b35ad0f0369adfea0db9c93e2123bd144f71]
+
+tOdsGenerator: accept the string's concatenate operator in formula...
+
+
+2014-06-02  David Tardon  <dtardon@redhat.com>  [2048cea99fc24833c7c5fc71f7807032a061c4af]
+
+tprepare for a release
+
+
+2014-06-01  David Tardon  <dtardon@redhat.com>  [1b2a8644a083fb66170e45cf482d3ede0dd1d4b8]
+
+tcoverity#1219711 out-of-bounds access
+
+
+2014-05-30  David Tardon  <dtardon@redhat.com>  [00e977ed118b8a99bca68ab7998252f5ffd00909]
+
+tremove test executables on clean
+
+
+2014-05-30  David Tardon  <dtardon@redhat.com>  [52ea635cc4ac9373bb6c71dc17ec212aed38f25a]
+
+tdo not fail if the removed files do not exist
+
+
+2014-05-30  David Tardon  <dtardon@redhat.com>  [37bbccf0a11b66244868c0286070fe5fef6651be]
+
+tfix debug output
+
+
+2014-05-24  David Tardon  <dtardon@redhat.com>  [431087afd938b0d9cea2f5c4b88da0746e3758a8]
+
+tproperly export API symbols
+
+
+2014-05-23  David Tardon  <dtardon@redhat.com>  [4fd4c29628fe0c9a5ee17dc5104b054be061ad2b]
+
+tprepare for a release
+
+
+2014-05-23  David Tardon  <dtardon@redhat.com>  [e8d37c51a7f0f4264c07c46fd7752ddc04260fbd]
+
+tfix build
+
+
+2014-05-23  David Tardon  <dtardon@redhat.com>  [0a456471ffc2d507052adfb48ad2d5b1e344bb29]
+
+tadd support for master pages
+
+t... just ignoring all the content for now
+
+2014-05-23  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [3aabce30445b2cd385d075813f3cb085b86cab90]
+
+tOne more change in RVNGString
+
+
+2014-05-22  David Tardon  <dtardon@redhat.com>  [f80779db21a84eb300bb62f860031c9c14659f95]
+
+tadd dummy defineEmbeddedFont impls
+
+
+2014-05-22  David Tardon  <dtardon@redhat.com>  [9be7fd2cce9c47dbff7095060241062ff6be9f36]
+
+tadapt to change in handling XML escaping
+
+
+2014-05-16  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [cabbc1665c5ef9fe73ffc4e9e377d4bae3f09ba5]
+
+tFix build with libodfgen
+
+
+2014-05-15  David Tardon  <dtardon@redhat.com>  [0b28dcea601100bc7c4d418abf5346ad47aad0fe]
+
+tadd dummy impl. for animations
+
+
+2014-05-14  David Tardon  <dtardon@redhat.com>  [6f0307e8d469e873a62306da2dd80c1f97aeedfe]
+
+timpl. newly added slide trans. function
+
+
+2014-05-14  David Tardon  <dtardon@redhat.com>  [a1241ce4a2c1408bdf25c4386dba2daf44a89f0b]
+
+timpl. newly added chart functions in pres. iface
+
+
+2014-05-14  David Tardon  <dtardon@redhat.com>  [1bd1e008584f1cf311b300c3f08ef994089c9f92]
+
+tadd support for connectors to all generators
+
+
+2014-05-13  David Tardon  <dtardon@redhat.com>  [e1cb4872f41375470a4436e56d1531ea69f35648]
+
+tgroup functions have been renamed
+
+
+2014-04-16  David Tardon  <dtardon@redhat.com>  [51fd658274eaf9ba3fd748479943d85e5a63c0ed]
+
+trequire librevenge-stream too
+
+
+2014-03-04  osnola  <alonso@loria.fr>  [b48b279a6ae8473426a96e397ae39d2a9bc8fb63]
+
+tOdgGenerator: try to improve a little the state management(by adding a stack of states, ...)   + do not allow to create textboxes inside a textbox...
+
+
+2014-03-04  osnola  <alonso@loria.fr>  [9d0a489056ef27be7bd9bea23bd1b34f80453e9d]
+
+tOdtGenerator: try to improve a little the state management(by adding function getState, pushState, ...).
+
+
+2014-03-03  osnola  <alonso@loria.fr>  [6fe726e62366be6ba8c223f8be9b71d1cda0875c]
+
+tOdgGenerator:  allow to use different units when defining svg:x|y|height|width, ...
+
+
+2014-02-03  osnola  <alonso@loria.fr>  [6e9f997679ae5e56f9b350365bce900f86f70f97]
+
+tOdsGenerator: add posibility to define the character's style of a number cell, ...
+
+
+2014-01-26  osnola  <alonso@loria.fr>  [aa09f17ede75ad4827e1bb4fa5061ad5f54f683f]
+
+tOdfGenerator: add code to catch potential exceptions in OdfGenerator::insertBinaryObject which can happen when using old versions of g++ and/or boost.
+
+
+2014-01-18  osnola  <alonso@loria.fr>  [06dd13ce11f46998814f24d9ac82601b5bea05f5]
+
+tOdsGenerator: minor corrections
+
+
+2014-01-07  osnola  <alonso@loria.fr>  [41ab21c7f046bef0895a7fb85659f8b0d39d2213]
+
+tRemove "manifest:version" which must not appear in v1.0 document...
+
+
+2014-01-07  osnola  <alonso@loria.fr>  [fe6e0bf447fe657d28ded9b2f197255dd2bedb39]
+
+tOd[cgpt]Generator: add functions to retrieve "Object *" files, ... Od[cp]Generator: add code to generate the manifest.
+
+
+2014-01-07  osnola  <alonso@loria.fr>  [10786b433cf00a1c17a76d29c34ea6091bfc34b8]
+
+tOdfDocumentHandler: add a new enum ODF_MANIFEST_XML(to generate the manifest) Od[cgst]Generator: implement the creation of the manifest(if asked) OdsGenerator: add functions to create files in "Object */"(if needed, ie. when a chart is generated) OdcGenerator: style's cleaning, ...
+
+
+2013-12-30  osnola  <alonso@loria.fr>  [18847e50f9cbbe854de2de72fcdc06ee614b5ba3]
+
+tAdd a chart generator: OdcGenerator + modify OdsGenerator to use it
+
+
+2013-12-27  osnola  <alonso@loria.fr>  [6043af4b1fc2dd28e42b6c63afcc83ef3c011a94]
+
+tUpdate OdsGenerator to compile with new RVNGSpreadsheetInterface...
+
+
+2013-12-20  osnola  <alonso@loria.fr>  [a8c2e4a4cc7bdf95364f3dc27afa66b36b4884cf]
+
+tAdd some comments, mainly about drawing path and odt ...
+
+
+2013-12-19  osnola  <alonso@loria.fr>  [59311687ff14e8aca7699ae329586be646f2d2f0]
+
+tBasic merge...
+
+
+2013-12-19  osnola  <alonso@loria.fr>  [166bc394b86a7731b68e738fed1431a2f1492590]
+
+tOdfGenerator: respect the given wrapping style when drawing a shape + do not add a draw:stroke="solid" in a frame properties' when none is given...
+
+
+2013-12-19  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [b748f7a3ef8a84f0be44250c5323a3fabcd94c51]
+
+textract the doubleToString out of the dupplication pit
+
+
+2013-12-19  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [154702bee97524f3978aeae4c9b85c28972635d6]
+
+tAdapt to the new RVNGString comparison operators
+
+
+2013-12-19  osnola  <alonso@loria.fr>  [1415c9243e7ed011cb4e8177eee277fecd7e73ad]
+
+tAllow to use different units when calling drawEllipse and drawPath....
+
+
+2013-12-18  osnola  <alonso@loria.fr>  [3c1578cdf7bd3ede532c833f174349ac84925cca]
+
+tOdfGenerator: add only need data in the frame's graphic style...
+
+
+2013-12-18  osnola  <alonso@loria.fr>  [e06046eecd0fe7fecd7a172e1e9f351408bdf8b3]
+
+tFix merged conflicts...
+
+
+2013-12-18  osnola  <alonso@loria.fr>  [f391c93bfa7416bd80906d5d4f729440104e9922]
+
+tGraphic styles: try to merge the gestion of the graphic styles...
+
+
+2013-12-18  osnola  <alonso@loria.fr>  [746d0ce3770848cf85114d96aa7c3015be286e2b]
+
+ttestList1.cxx: use the new interfaces
+
+
+2013-12-18  osnola  <alonso@loria.fr>  [7edae1de135b50ddc7d4c69636f57a516d3cfd3c]
+
+tOdfGenerator: simplify a little the list code by removing no longer used code...
+
+
+2013-12-17  osnola  <alonso@loria.fr>  [6c40d8d1d8533e5967f1bd583f4bed7942521efa]
+
+tRemove some compilation's errors...
+
+
+2013-12-17  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [b39c935b5599116c4c6a5c561128a68962d92669]
+
+tFold the list definitions into the list open callbacks
+
+tStill the tests must be adapted
+
+2013-12-17  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [5dc08006b5291558c92d5737aef1ef5f7cb15f1e]
+
+tlibrevenge:id -> librevenge:list-id
+
+
+2013-12-15  osnola  <alonso@loria.fr>  [39130681e05d9e8a6b12eb5f8c506978ab2468fd]
+
+tOdtGenerator: add a graphic interface, to be continued...
+
+
+2013-12-15  osnola  <alonso@loria.fr>  [1295792dd3a706c954faaad780d780ffc0aef997]
+
+tOdsGenerator: use the new spreadsheet interface to simplify the graphic's creation, ....
+
+
+2013-12-15  osnola  <alonso@loria.fr>  [ebd71e324cfde2509747bd5bbde608f4361a7f3e]
+
+tOdpGenerator: use OdfGenerator's functions to draw basic shapes...
+
+
+2013-12-15  osnola  <alonso@loria.fr>  [72a7ac39fa02b48502f302bf705ad908f7b0207c]
+
+tOdfGenerator: add functions to draw basic shapes + modify OdgGenerator to use these new functions, to be continued...
+
+
+2013-12-15  osnola  <alonso@loria.fr>  [7c4078ee818c0efec0e81666b8a59ce6ff049c69]
+
+tAdd a small file to test the construction of basic graphic shapes...
+
+
+2013-12-14  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [634d50a4d648b2dd19670b1dfb844f5f687b2915]
+
+tSome taste-based changes + avoid a lot of strcmp in paragraph style and make it future-proof
+
+
+2013-12-14  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [7d3a8411fb76af411ee5a4f599cd8f574dd48e19]
+
+tFix compiler warnings
+
+
+2013-12-14  osnola  <alonso@loria.fr>  [e31cf7e01d7c1db1ea84b39af73ee9041a164806]
+
+tFinish to create the GraphicStyleManager and try to also avoid duplicating similar graphic styles...
+
+
+2013-12-13  osnola  <alonso@loria.fr>  [9238d7d4e6d9f4186ec3f6aa30721ae6f4d3a74a]
+
+tBasic merge...
+
+
+2013-12-13  osnola  <alonso@loria.fr>  [7974e817ddb51952468d68a72c96bfdbdfb610f9]
+
+tGraphic styles' properties: try to improve a little the code, to be continued...
+
+
+2013-12-13  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [41c34af2a74e2b3bead1f3f8ae0721a9e01b0ce6]
+
+tDe gustibus non disputandum
+
+
+2013-12-12  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [d3609339e1d567118e64836b01f360037a2b7ff1]
+
+tLO does not support yet the header/footer occurrence "last", so don't bother
+
+
+2013-12-12  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [f2090e348040fec97728b9012dd01ac8086b4c0b]
+
+tThinko with headers/footers
+
+
+2013-12-12  osnola  <alonso@loria.fr>  [4d948c80b9c4ce846f418f5b2d7591dd5eff09fb]
+
+tOdpGenerator: use the more <<coherent>> start/endTableObject interface...
+
+
+2013-12-12  osnola  <alonso@loria.fr>  [4c5885bf271f6222a0d40936fcfde87daff8ba0c]
+
+tUse the new startDocument interface...
+
+
+2013-12-11  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [e81a4d3e08e688f1ed66daf687df8fa808dd5eb8]
+
+tRe-astyle
+
+
+2013-12-11  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [2816c7dfcaef31305301760bd0e538a14d45c42c]
+
+tAllow equal identing of functions
+
+
+2013-12-11  osnola  <alonso@loria.fr>  [6648c046d120d5403c91ccef1b0e82b3279ca791]
+
+tOdsGenerator: pass also the define[Un]OrderedListLevel calls to the auxilliar OdgGenerator (when it exists) ...
+
+
+2013-12-10  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [88f0a97b672026e2ae1321a789ea2d8b85ae33c3]
+
+tSet framework for header/footer occurrence first and eventually last
+
+
+2013-12-10  osnola  <alonso@loria.fr>  [e6968beef7e5b5b8029e6bdb531b354e2f0af82e]
+
+tRemove some not working code concerning table and not given columns...
+
+
+2013-12-09  osnola  <alonso@loria.fr>  [f7f912c623f30084bd06dd7cfbd4ef30b6bf7f43]
+
+tUse std::map to no longer duplicate the tables' style...
+
+
+2013-12-09  osnola  <alonso@loria.fr>  [5281cd30577588c3e9daa9897683ba95231c70cf]
+
+tAdd a TableManager to store the different tables + add functions in TableStyle to store the table state. OdfGenerator: add a warning in openLink if librevenge:type is not defined ( to prepare the addition of future type of links )....
+
+
+2013-12-09  osnola  <alonso@loria.fr>  [4da6d57e8b97712a687e768737c84e738b1560fb]
+
+tBasic merge...
+
+
+2013-12-09  osnola  <alonso@loria.fr>  [b7e249b4f296325b3823547326a8b6b8c56324fe]
+
+tTry to avoid dupplicated frame's code between Od[ts]Generator, to be continued.
+
+
+2013-12-09  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [146ad7abe75dd13a52ee0f938354ba7f6f4ef18a]
+
+tTry to output some style if librevenge:table-columns is not present
+
+
+2013-12-09  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [d240a7e3e6613d9b84f6844efccd9bbb7011ffea]
+
+tastyle --options=astyle.options \*.?xx
+
+
+2013-12-08  osnola  <alonso@loria.fr>  [03710d55ab7fec3890cb4438e35dcb10387de35a]
+
+tTextRunStyle: do not generate a named style if the style corresponds to a master-page 	+ try to avoid creating dupplicated named styles...
+
+
+2013-12-07  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [dddb0e8d044fa17b946c0ee31432e2fff0c35bbd]
+
+tFold in really alse table columns
+
+
+2013-12-07  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [2fc172b2b30f3d9e96e2e349ba91322557caf3d4]
+
+tEscape urls
+
+
+2013-12-06  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [79f15c9ac945dcf6f5e7bd8248e24d324c36c440]
+
+tColumns are in the propList alread, no need to dupplicate them
+
+
+2013-12-06  osnola  <alonso@loria.fr>  [fd235e305eee0945828afee04f3529e17c910b41]
+
+tOdtGenerator: add code to define character/paragraph/list user styles using style:display-name to define their final names...
+
+
+2013-12-06  osnola  <alonso@loria.fr>  [e30947605f892fba4f780e1f310336d457cb70f9]
+
+tOdgGenerator: remove some default settings in table...
+
+
+2013-12-06  osnola  <alonso@loria.fr>  [94b2b0ea71bc93240d65ad9f055cca24fda94204]
+
+tTextRunStyle: add code to retrieve named styles in span/paragraph using style:display-name OdfGenerator: recognize lirevenge:list-id and librevenge:id ( old method ) to define a list id OdxGenerator: add "xmlns:xlink" in some document styles test: rewrite Makefile.am + add testLink1.cxx...
+
+
+2013-12-05  osnola  <alonso@loria.fr>  [44e4b59ed6daf8afe0f1f659b16c825f8e224fd8]
+
+tbasic merge...
+
+
+2013-12-05  osnola  <alonso@loria.fr>  [1b9672dfcf845ed72a61274ab0ea0d7d79cd54ee]
+
+tOdpGenerator: use OdfGenerator's functions to generate the table) OdgGenerator: add table management (code simillar to OdpGenerator)
+
+
+2013-12-05  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [43659dc220d55dfd705d257942cc4537eb78e0a9]
+
+tImplement openLink and closeLink
+
+
+2013-12-05  osnola  <alonso@loria.fr>  [8bbb1e7795a8d8a7403aa311eb14153b4a5c7e08]
+
+tOdfGenerator: begin to add code for building tables... test: add code to test the construction of textboxes and tables
+
+
+2013-12-04  osnola  <alonso@loria.fr>  [a1e13b74d6626b4b13857cd6424002911bbbdc6a]
+
+tOdsGenerator: correct the list code...
+
+
+2013-12-04  osnola  <alonso@loria.fr>  [d53dc74ce1c35f978dbdf429a16174f198b2cd2b]
+
+tOdpGenerator: try to use and define the list styles...
+
+
+2013-12-04  osnola  <alonso@loria.fr>  [5fab232360178ea1ec32aeffda3331fbb9f4481d]
+
+tOdgGenerator: add the list styles in the automatic style zones...
+
+
+2013-12-04  osnola  <alonso@loria.fr>  [381a221b30251420557c72c1df936f21f36ab12e]
+
+tupdate test/.gitignore
+
+
+2013-12-04  osnola  <alonso@loria.fr>  [f11bc33d9fcfffa4d70896f42b19b503b0881815]
+
+tAdd test for paragraph and list styles + begin to correct some problems...
+
+
+2013-12-04  osnola  <alonso@loria.fr>  [d9acaf193af8d40f18d33d05ae57c6d00f7d32a0]
+
+tCreate a repository <<test>> to test libodfgen directly.
+
+
+2013-12-04  osnola  <alonso@loria.fr>  [58b0dbf45a93cbbb2f6f3ad4cb3c45ece0bbbcb9]
+
+tastyle modifications...
+
+
+2013-12-04  osnola  <alonso@loria.fr>  [15f03958ca7b6cd298c7497c650d886fc015d484]
+
+tBegin to move the list's code in OdfGenerator, to be continued...
+
+
+2013-12-03  David Tardon  <dtardon@redhat.com>  [ce7bec26b0cd9b834bee31c97b9ca1cc914c159c]
+
+tadd heading for the current version
+
+
+2013-12-03  David Tardon  <dtardon@redhat.com>  [7fdad5e121c6e500ca87cce5d1123771cfa3f106]
+
+tadd to NEWS
+
+
+2013-12-03  David Tardon  <dtardon@redhat.com>  [9c044f2b1305426f244784f2dbc2a8568b38eea2]
+
+todp: move annotation namespace decl. to root element
+
+
+2013-12-03  David Tardon  <dtardon@redhat.com>  [d2d692465612add05588b5d46f28b61e6b49cffa]
+
+todp: fix annotation namespace
+
+
+2013-12-03  David Tardon  <dtardon@redhat.com>  [680b51c18b303f77deb0131ab67abf963372fa16]
+
+todp: generate notes page just like libreoffice does
+
+
+2013-12-03  David Tardon  <dtardon@redhat.com>  [ff8419a2e175ca6bc53977fbf41a95f7b2edc2a6]
+
+tdeclare presentation namespace
+
+
+2013-12-03  David Tardon  <dtardon@redhat.com>  [dd18174f0d5c0a7106afe3d25868644d666bda76]
+
+todp: close notes zone
+
+
+2013-12-03  osnola  <alonso@loria.fr>  [3dc83dd623c2c09dcbc1ee39152ba7b1e15fc334]
+
+tAdd defineParagraphStyle/defineCharacterStyle to OdpGenerator + try to simplify a little the list's code in OdtGenerator...
+
+
+2013-12-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [838589c0dadd4da6c387f49660cc15f8f96d6d63]
+
+twerror: uninitialized member
+
+
+2013-12-03  osnola  <alonso@loria.fr>  [31fc91c014a36f8b5d6638d29072f3016a91f112]
+
+tOops...
+
+
+2013-12-03  osnola  <alonso@loria.fr>  [b4d71ac8e26cd26abd5f93890c8c6eeaff9fedc6]
+
+tMerge branch 'experimental' and resolve conflicts by hand...
+
+
+2013-12-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [12b49a588f188474a4e3a8005182a0d4351bae0b]
+
+tIt is the parser library that needs to split tabs, spaces and lineBreaks
+
+
+2013-12-03  osnola  <alonso@loria.fr>  [73427677b3e2f81405c1443ab67645309197d896]
+
+tMove in GraphicFunctions the functions to compute a path bdbox and to generate a path string. Generate the meta data block only if there is some meta data...
+
+
+2013-12-03  osnola  <alonso@loria.fr>  [73f2d3f799d6211d0fa3fdc3b7a7165a4ab1898d]
+
+tUse more explicit attribute to define the span/paragaph id...
+
+
+2013-12-02  osnola  <alonso@loria.fr>  [9b99c57e2c80d4dade554f25905ca02f84195128]
+
+tTry to regroup the implementation of basic text functions in a new class: OdfGenerator, ...
+
+
+2013-12-02  David Tardon  <dtardon@redhat.com>  [6db6db65587e967dbf53c65d1ccf1a72b10c1753]
+
+tprepare for a new release
+
+
+2013-12-02  David Tardon  <dtardon@redhat.com>  [97b2beaa704c7b7767938efa469bf56ff598c917]
+
+todp: do not emulate layers by groups
+
+
+2013-12-02  David Tardon  <dtardon@redhat.com>  [7d04f795315feebca0891b666033cd3295c932e3]
+
+todp: write out table styles in a way impress understands
+
+
+2013-12-02  David Tardon  <dtardon@redhat.com>  [5c4beaeeace79c6fb0c92031f0fe1a9f4c54ec83]
+
+todp: actually write out table styles
+
+
+2013-12-02  David Tardon  <dtardon@redhat.com>  [01038a6296c35cb84a66ec7b86866c0859f5a00d]
+
+todp: add missing namespace decl.
+
+
+2013-12-02  David Tardon  <dtardon@redhat.com>  [91f0805fd98edc293ffee3c9370198fc8db85ace]
+
+todg/odp tables must be inside a draw:frame
+
+
+2013-11-29  osnola  <alonso@loria.fr>  [e529943efa2dd96a66e08e0f8e1bed6ca553c8f2]
+
+tOdsGenerator,OdtGenerator: add also office:font-face-decls in the content.xml part...
+
+
+2013-11-29  osnola  <alonso@loria.fr>  [a81c5031dbe4e8b61dc30e7b741efd30c6d1b8b6]
+
+tOdtGenerator: try to send only good data to the different document handlers +   try to correct one or two odf errors (pointed by http://odf-validator.rhcloud.com).
+
+
+2013-11-29  osnola  <alonso@loria.fr>  [675a023b8582e7944426f7e3f15a95c0d3daac37]
+
+tOdgGenerator: move the generation of the handlers content in the endDocument function...
+
+
+2013-11-29  osnola  <alonso@loria.fr>  [6a4257c9f40b22f609877e001f6b2c6f8edb79db]
+
+tUse a map to store the DocumentHandler + begin to retrieve the basic styles from wpd2odt in OdtGenerator
+
+
+2013-11-29  osnola  <alonso@loria.fr>  [25e23db97e5f9132d40b3af7ec232d667efa90f7]
+
+tbasic merge... Merge branch 'master' of ssh://git.code.sf.net/p/libwpd/libodfgen
+
+
+2013-11-28  osnola  <alonso@loria.fr>  [ed03893fe4e226675200fceaac735e9e8f9b8990]
+
+tOdpGenerator: add a function addDocumentHandler to add new document handlers...
+
+
+2013-11-28  osnola  <alonso@loria.fr>  [5ed82565409a5f346ff1750edd0e294074926e8f]
+
+tOdgGenerator: add a function addDocumentHandler to add new document handlers...
+
+
+2013-11-28  osnola  <alonso@loria.fr>  [f30b7f2043092208e5562efc51ab9d720710bea8]
+
+tOdtGenerator: add a function addDocumentHandler to add new document handlers   but keep the actual behavior while writerperfect is not modified   (see comment REMOVE ODF_CONTENT_XML)
+
+
+2013-11-28  David Tardon  <dtardon@redhat.com>  [e9285d67cadba39235ae664df0c8423f68b6858b]
+
+tuse options file for astyle
+
+
+2013-11-28  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [bae3500a36446baa8d8569a7b27ff02194aa3065]
+
+tmodify the astyle stuff
+
+
+2013-11-28  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [e5797e838172c0a7ae9755b216af87377dd65670]
+
+tUse std::map to avoid several handlers per stream type
+
+
+2013-11-28  David Tardon  <dtardon@redhat.com>  [2429bc9e65e049ee1aab6382c4e3312d294ecc13]
+
+tadd AUTHORS file
+
+
+2013-11-28  David Tardon  <dtardon@redhat.com>  [b189a158832ae5601e46d28c130b1ae6f07bfeef]
+
+tdocument the current astyle settings
+
+
+2013-11-28  osnola  <alonso@loria.fr>  [e9f022ac700453d2cad9d9d1106c86a91d4d3b26]
+
+tOdsGenerator: duplicate the automatic-styles part in content.xml and styles.xml (to simplify the code and to avoid unseen problems)
+
+
+2013-11-28  osnola  <alonso@loria.fr>  [e38b31629236c6c48d16ae0ea56e3b6924240418]
+
+tOdsGenerator: change the interface to try to manage correctly the content of office:document-content, office:meta, ...
+
+
+2013-11-27  osnola  <alonso@loria.fr>  [ad6a3b62b8a5e495cf89f679ff20882633edcb6a]
+
+tOdsGenerator: implement the pageSpan functions....
+
+
+2013-11-25  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [29dda35a155a622d0275fa11365da1126849bed9]
+
+tastyle -HU -A1 -k3 -y -n -t -r \*.?xx
+
+
+2013-11-24  osnola  <alonso@loria.fr>  [5909a6e02465fdd3ef46bddd64e99193a2b61783]
+
+tCorrect a comment...
+
+
+2013-11-24  osnola  <alonso@loria.fr>  [19c6fd51c9f2947dc0810d0a9cdb4061c87c56a9]
+
+tRemove the insertSheetConditionInNumberingStyle function in OdsGenerator...
+
+
+2013-11-23  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [1569aba3b047ca3bc09f95aca669dbe162bc38e4]
+
+tdrawPoly*: vertices -> "svg:points"
+
+
+2013-11-23  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [42f01d71e19acd46944b9e062da6586d7e09cc13]
+
+tFold in gradients
+
+
+2013-11-22  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [2b4db9442579bffe671c52d31f12ae6b89f2b0aa]
+
+topenTable: columns -> librevenge:table-columns + fold data in insertEquation
+
+
+2013-11-22  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [79a5065970c82c64334299f0a50fe3f35b7775a3]
+
+tinsertField: type -> librevenge:field-type
+
+
+2013-11-22  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [0fe33789e2996007733a2ec1d5b2a3da3c823f2e]
+
+twhitespace
+
+
+2013-11-22  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [f2fe5767391bb3be18c37f5a5ead2a0b67ec0ce8]
+
+tAvoid copying of SheetStyle because of pointer members
+
+
+2013-11-22  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [006845b31cb63bcde93fc2009be01a679656c0d6]
+
+tFolding in the section columns
+
+
+2013-11-22  osnola  <alonso@loria.fr>  [a64cb6826b11a414e0cb40ee117507ba50ed3a77]
+
+tDump RVNGPropertyListVector in the specific functions of RVNGSpreadsheetInterface + minor corrections...
+
+
+2013-11-21  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [b80a7d647c177da76a8903eda8c53dce647ee9fa]
+
+tFold tabStops into the propList
+
+
+2013-11-21  osnola  <alonso@loria.fr>  [eb963f4ffe056f61a3d28c8f8a9afa9cc2a0dcff]
+
+tUse the new RVNGPropertyList interface to retrieve a RVNGPropertyListVector...
+
+
+2013-11-21  osnola  <alonso@loria.fr>  [3727774bd71cc22d8323e3444d556843607d9265]
+
+tBasic merge...
+
+
+2013-11-20  osnola  <alonso@loria.fr>  [1713c6de01939458d6adcfd0290cc4d9249b0693]
+
+tOdsGenerator: change code to use a RVNGPropertyListVector for formula...
+
+
+2013-11-20  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c39119861e8eb55ceb226af5ddb86bd766b5da84]
+
+tFolding paths into propLists
+
+
+2013-11-20  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c324c87e5391438b2671d729550b9d82a062bd25]
+
+tTry to filter out properties that are actually complex children
+
+
+2013-11-20  osnola  <alonso@loria.fr>  [c9b9c765eeacb15c02c54adf7ecf2fa630c78916]
+
+tBasic corrections in the spreadsheet part...
+
+
+2013-11-19  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [9c9b9c14dbb130fb37d608050bd85c2ff5a2de43]
+
+tWerror fix
+
+
+2013-11-18  osnola  <alonso@loria.fr>  [c0a6d1da3a69d48d8fa5a0dd52221909d7248cb8]
+
+tMoves the handler definitions in OdfDocumentHandler.hxx...
+
+
+2013-11-17  osnola  <alonso@loria.fr>  [53ae427c2d60ea96aed1c85a87323d23e5d8832c]
+
+tAdd a Ods generator...
+
+
+2013-11-14  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [7571b573e49a5890421cbf0c7ad2e98c949fea03]
+
+tAdapt to API change in librevenge
+
+
+2013-11-10  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [6e2018732b188914ecbda1afa3560c8df0dccaa9]
+
+tAllow forcing string when inserting attribute value
+
+
+2013-11-07  osnola  <alonso@loria.fr>  [8fe293dc2cdefebc8920c26d80c27e74dfd6edd2]
+
+tMove OdgGenerator's unimplemented functions in OdgGenerator.cxx
+
+
+2013-11-07  osnola  <alonso@loria.fr>  [2b4702f0e8b1e255400d46b62ee207f483dac189]
+
+tImplement OdgGenerator::insert{LineBreak,Space,Tab}
+
+
+2013-11-06  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c253af844314cac4fa280288a3cf4a0b0ab38938]
+
+tDon't crash on missing property
+
+
+2013-11-05  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [426310b1a549429c7218a9e746f2ac633b27b606]
+
+tnamespace-related fixes
+
+
+2013-11-05  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [2b9eee7ab7077fafc4319d70832b15b8ddefc298]
+
+tlibrevenge namespace
+
+
+2013-11-04  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [ee4e1a5390e92bbc0fbd4bfd2374eec958915bcf]
+
+tConsolidate mime-type properties
+
+
+2013-11-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [1ec68aaf53434c442f38cc35e0bc8bc85766e9c1]
+
+tImplement the right interface
+
+
+2013-11-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [a6952f5697dd64b786d6e9f432955625dad935f3]
+
+tBranch STABLE-0-0-0 and make master use librevenge
+
+
+2013-10-30  David Tardon  <dtardon@redhat.com>  [9008d84be1eb0b3def0df39b069a309d54aa73ab]
+
+tuse correct header for std::swap
+
+
+2013-10-24  David Tardon  <dtardon@redhat.com>  [453714dd3ebe8887fc3ad73467067f2a356b50fb]
+
+tupdate NEWS
+
+
+2013-10-23  David Tardon  <dtardon@redhat.com>  [4666c591e0434c1ffa7bdaad02984d9809a2b6f6]
+
+tspaces -> tab
+
+
+2013-10-22  David Tardon  <dtardon@redhat.com>  [1e0e6d17fae648e9dbbf5a06db58562322af8f9c]
+
+tadd some documentation
+
+
+2013-10-22  David Tardon  <dtardon@redhat.com>  [01472ee411eaf621959e6c764528b84ece9b2ac2]
+
+tadd support for generating API docs
+
+
+2013-10-22  David Tardon  <dtardon@redhat.com>  [6118d2b5e6916265b22a143f42ee04ac0a6a2ea8]
+
+tdrop extra semicolon
+
+
+2013-10-22  David Tardon  <dtardon@redhat.com>  [77f20c9740c50643fad52c4240187b09ac19ffcf]
+
+ta ctor in abstract class does not make sense
+
+
+2013-10-22  David Tardon  <dtardon@redhat.com>  [2976b2e6c42be6aef1dfcdfcd9b969cad8ffe297]
+
+tlibkeynote is dead. long live libetonyek!
+
+
+2013-10-22  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [3c5a1e2ca562b1905da717b22d2264aea0d4dc7f]
+
+tDepend on libkeynote in pkg-config file too
+
+
+2013-10-22  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [20166f1b22e19f5355caf748db08892fdcde12eb]
+
+tMake keynote hard dependency for the OdpGenerator
+
+
+2013-10-22  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [81627f109316611a6c2cd6153932f29c994bde4d]
+
+tFix ODP mimetype
+
+
+2013-10-22  David Tardon  <dtardon@redhat.com>  [62f7207b333f09338e779523f52bb5a501387f12]
+
+tput generator state to a separate struct
+
+
+2013-10-22  David Tardon  <dtardon@redhat.com>  [45db4b6328587c7cfb73829c67793e982d8520a0]
+
+tadd support for lists
+
+
+2013-10-22  David Tardon  <dtardon@redhat.com>  [3236b4200e4f01f2f9d17ba7b4ec28bd1ab364f9]
+
+tadd support for notes
+
+
+2013-10-21  David Tardon  <dtardon@redhat.com>  [2ebb324dbfa87cfd3e3967d73678a59fd2bfe273]
+
+tadd support for tables
+
+t(shamelessly stolen from OdtGenerator and then beaten into submission)
+
+2013-10-21  David Tardon  <dtardon@redhat.com>  [12ad16eb29934d5c6ca76ac1b870154af22b57ba]
+
+tadd support for comments
+
+
+2013-10-21  David Tardon  <dtardon@redhat.com>  [b9d2031e6911a545ea9bf12b37e60f10e5f25c10]
+
+tfill NEWS
+
+
+2013-10-21  David Tardon  <dtardon@redhat.com>  [13553994421b1c41bd46433cf5ce3c9637ba384a]
+
+timprove README
+
+
+2013-10-21  David Tardon  <dtardon@redhat.com>  [3e6a8d00d8d1ab37a1a3b36d6c1067a4f73b54b4]
+
+tbump version
+
+
+2013-10-21  David Tardon  <dtardon@redhat.com>  [91635ce8c524fc777cd0841bbd695459c34110de]
+
+tfactor out at least some common functions
+
+
+2013-10-21  David Tardon  <dtardon@redhat.com>  [e2cd287b2a10917a4eca01db07668c6fbf9ee04d]
+
+tadd support for generating presentations (.odp)
+
+tI need this for libkeynote.
+
+2013-10-20  osnola  <alonso@loria.fr>  [39c9630649dd4cf4d8c6e146e685d0e3890a75b3]
+
+tOdtGenerator: add possibility to add a frame's shadow...
+
+
+2013-09-26  osnola  <alonso@loria.fr>  [4526c556b0244620ee7f813ed06ae2b2e3413520]
+
+tAdd possibility to define another center of rotation for a textbox by using libwpg:rotate-cx/cy ; usefull in conjection with fo:min-width or fo:min-height...
+
+
+2013-09-26  osnola  <alonso@loria.fr>  [4a41d6ffdcc1253275432937b26540b71b189583]
+
+tMake code to manage linked textboxes more robust...
+
+
+2013-09-26  osnola  <alonso@loria.fr>  [6403ad9b15a373744b69dbb4422c00cd7e40b1df]
+
+tremove a cppcheck's warning: protect from potential memory leak.
+
+
+2013-09-02  osnola  <alonso@loria.fr>  [7ab6988d14b077fc2c2a03f878a717081667e0bb]
+
+tCorrect another mistake...
+
+
+2013-09-01  osnola  <alonso@loria.fr>  [b0bd80a9a2abb93adad249ba9a437285cc9e3ec4]
+
+tCorrection of a mistake.
+
+
+2013-08-31  osnola  <alonso@loria.fr>  [3344d4e2a673becd0f11464fc9e80a070bb349c5]
+
+tTry to normalize a little the ODFGEN_DEBUG_MSG messages...
+
+
+2013-08-31  osnola  <alonso@loria.fr>  [0648c43c83c59482e6985c3bf897bce16e5300be]
+
+tReplace WRITER_DEBUG_MSG by ODFGEN_DEBUG_MSG.
+
+
+2013-08-31  osnola  <alonso@loria.fr>  [8c1f4841f5c0cc0623283f9ef4500ff717f8b6e9]
+
+tCreate a function to fill a graphic style properties element from a style and a gradient from writeGraphicStyle + use it in writeGraphicStyle and in startTextObject (to retrieve more property: border, potential pattern, ...)
+
+
+2013-08-30  osnola  <alonso@loria.fr>  [62499bb0753cab2b14b37fd9cef205182525eb57]
+
+tOdgGenerator drawPath: add commands H,V,T,S in bounding box computation + some sanity checks
+
+
+2013-08-30  osnola  <alonso@loria.fr>  [032ebc0ee064c6d7d2bc62ed05403cf36a4408ac]
+
+tOdgGenerator drawPath: simplify a little the bounding box computation's code +    add command H, V, T, S in the path generations and some sanity checks,    to be continued...
+
+
+2013-08-30  osnola  <alonso@loria.fr>  [5ca30373f237a7a58106a7f7bce539a3d0aaca0e]
+
+tAdd some sanity checks...
+
+
+2013-08-30  osnola  <alonso@loria.fr>  [1e9f8d6da072406e7d2312899916b649b6eb4b24]
+
+tArrow's style: retrieve draw:marker-start-center and draw:marker-end-center properties if there exist.
+
+
+2013-08-30  osnola  <alonso@loria.fr>  [d895f84845c585f7c5dc0fdfb3361f7043a28175]
+
+tSimplifying code: create a function to retrieve the document type...
+
+
+2013-08-01  laurent alonso  <alonso@saturne.loria.fr>  [46bd85c02b87733e56a982e4c131153395153ecb]
+
+tAdd more table properties: - table:border-model in table definition to allow collapsing borders between cells, - style:border-line-width* in cell definition to allow borders with different widths...
+
+
+2013-06-14  Laurent Alonso  <laurent.alonso@inria.fr>  [95e0c6ff4eac31f48a0965311a4db591dda0a1d6]
+
+tAllow fo:min-width and fo:min-height in Writer frame
+
+
+2013-05-22  David Tardon  <dtardon@redhat.com>  [1a07cac39b076233876749b67c7a83db8a539943]
+
+tno need to check before delete
+
+tIt throws coverity off the track, because it thinks the pointer can be
+tnull and insists it should be checked at other places too.
+
+2013-05-22  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [da4b4ba96d56f5557dc70d81443ef380c4e11fd2]
+
+tBump version
+
+
+2013-05-15  Laurent Alonso  <laurent.alonso@inria.fr>  [4b6cd1ea149648f710a0bab3b213e308953cda1d]
+
+tBorder and column separator changes
+
+tAllow to define border sizes independently
+tAllow to specify separator lines between colums
+
+2013-05-10  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c192984d25ebbd287d8eea97eccfc630a57d5e26]
+
+tMake Michael Stahl happy (one library at the time)
+
+
+2013-05-07  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [1a2206c74bb416fc708ab519f453fd3d7002d441]
+
+tA bit more of automatism in pc file generation
+
+
+2013-05-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [070ab6e9cb90ac7e4dc44b65099ebd6cbe6d9f25]
+
+tUnbreak build
+
+
+2013-05-02  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [0fc8b5b73cb4f7060d7bea349b81cbd0f13675c4]
+
+tlibwpd already does this conversion, so don't dupplicate
+
+
+2013-05-02  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [1f5003a9a7adba5920c11010926d204ba03d69be]
+
+tFix android build
+
+
+2013-05-02  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [7fd0fbe2e31a744f881aad0fc09ff3c545db5014]
+
+tFix some misstatements
+
+
+2013-05-01  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [d4ef7b96c622cbd5049d003428beed5ce7d298e9]
+
+tSilence some warnings
+
+
+2013-05-01  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [18d2c178fc8b1a176449fdd599d207864b5dcbcd]
+
+tAnd a further cleanup
+
+
+2013-05-01  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [e92f912188253d7d2a983e041c28fec02bb47fbc]
+
+tMiscellaneous Windows fixes
+
+
+2013-05-01  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [19e9ad44f0ff77a36d4d1c38fbbc360538918c49]
+
+tMake libodfgen -Weffc++ clean
+
+
+2013-05-01  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [1d9ed6a4012434525479c848f2dd70b7e4e09cd5]
+
+tDon't default to Weffc++ for the while
+
+
+2013-05-01  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [03aeb8bfd82eb97ed2783d201ed8975b4fd1675a]
+
+tSome more cleanup and LO backports
+
+
+2013-05-01  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [38bfcaba0d21b63a5eaf76258bd5833915fa62c4]
+
+tSome more cleanup
+
+
+2013-05-01  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [2c6a4c15cc2cfd1c02de8fe06f67e54b007fd906]
+
+tSome warnings + fixes
+
+
+2013-04-30  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [874b04cf520a1d624a312339c5ce4b8c7a45ca0d]
+
+tUse AM_CXXFLAGS
+
+
+2013-04-30  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [92dbc36a0ec62face67ce3c6d140f695d2bcdb67]
+
+tAdapt slightly the msvc6 project
+
+
+2013-04-30  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [fe208bcfac82772bdfeaef0bc7cc2b22bc73b53c]
+
+tWe don't actually require the stream implementation here
+
+
+2013-04-30  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [42f6c4ec11127798dd5857c8433ec5719356ac46]
+
+tNo need to keep packaging files in the tree
+
+
+2013-04-30  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [20d3e89536b00e66b5b3af6e4edda251366b7b84]
+
+tsimplify the directories
+
+
+2013-04-30  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [95af373e79278e69fa3b5ef222ef80d255f4bc10]
+
+tlibodfgen pure
+
+
+2013-04-30  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [b637e44afc1696ad8a5bfc3745dfe2947c6da954]
+
+tWork towards libodfgen
+
+
+2013-04-30  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [f519b730b69d532af5269575f2db2ba2c7d03047]
+
+tfilter -> libodfgen
+
+
+2013-04-30  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [4e25494d9923ac3fbb919eae8fe0bcae31ba06aa]
+
+tBy agreement of all contributors, dual-licensing under MPL2+ and LGPL2.1+
+
+
+2013-03-11  Laurent Alonso  <laurent.alonso@inria.fr>  [1d04e8d6aa5c14f0fd48e991f89a7018559f7282]
+
+tImprove lists generation
+
+
+2013-03-11  Laurent Alonso  <laurent.alonso@inria.fr>  [9f9c4dcb5898d27293d39941509ba1732b981bbd]
+
+tMWAW: allow to generate surface splines and polygons
+
+
+2013-03-11  Laurent Alonso  <laurent.alonso@inria.fr>  [5bb892269d0e27ccbc4200011107efb723efeb54]
+
+tSupport some new parameters
+
+
+2013-02-22  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [4139a7c44fcb7a441ce8a0065a8be4b019381aba]
+
+tWe need to escape special characters in slide names
+
+
+2013-02-19  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [09f709c2ddb4cfb56e6d6621b6d933b68c485c78]
+
+tAllow specifying of page names
+
+
+2013-02-19  Norbert Thiebaud  <nthiebaud@gmail.com>  [c1a2d2ff07cdcf27ea2999e84d34f926f2c7129f]
+
+tcoverity#983356 ressource leak
+
+tChange-Id: Idcc2d548363ddab04dd8acaa1dfb854a19ca47ef
+tReviewed-on: https://gerrit.libreoffice.org/2200
+tReviewed-by: Fridrich Strba <fridrich@documentfoundation.org>
+tTested-by: Fridrich Strba <fridrich@documentfoundation.org>
+
+2013-02-18  Laurent Alonso  <laurent.alonso@inria.fr>  [64166d1a0f60676918c61ff9dc95747c7a6ef5ed]
+
+tImprove list code
+
+
+2013-01-18  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [87d033a7b09b5ba89cae69c947858e9bfbcf8722]
+
+tFix build with newer autotools
+
+
+2012-08-23  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [95474b69d8926462f020daad4714803f9cb22fbb]
+
+tIterate the utf8 correctly + handle tabs too
+
+tChange-Id: Ie6a4750ebd04e3b1ed8ad0985e141b6ff2e65e98
+
+2012-08-23  Brennan Vincent  <brennanv@email.arizona.edu>  [c12af04c901de575eb5bc0041160be173ee9ba80]
+
+tMove writerperfect newline-handling logic to OdgGenerator::insertText
+
+
+2012-08-23  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [b89315823e0d9253a16b40f76556e74a27b4c35a]
+
+tastyle
+
+
+2012-08-14  Brennan Vincent  <brennanv@email.arizona.edu>  [e0019c3d8969f4c574ae35353c8ef4e2d3a698ff]
+
+tAdd support for draw:color-mode and draw:(red|green|blue) in drawGraphicObject
+
+tSigned-off-by: Fridrich Štrba <fridrich.strba@bluewin.ch>
+
+2012-08-14  Brennan Vincent  <brennanv@email.arizona.edu>  [e722e72ad91bb36879bd50e00e55af40a9812734]
+
+tRemoved unused function (can't compile in debug mode otherwise)
+
+tSigned-off-by: Fridrich Štrba <fridrich.strba@bluewin.ch>
+
+2012-08-01  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [b7ad569167fa6eb064bc3a7efbcc8f44a5000166]
+
+tAdd vss2odg to extract Visio stencils
+
+
+2012-07-31  Laurent Alonso  <osnola@loria.fr>  [8115c9bd00c9ea362496df5b95aa44074d67f067]
+
+tMiscellaneous improvements in MWAW and cmdline
+
+
+2012-07-04  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [a078a035356891d491e395f1fa0e64cdf93884fe]
+
+tTrying to get the windows build of shared libwriterperfect right
+
+
+2012-07-04  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [1f58164899770ca4591954a174a019f4994c6863]
+
+tIncrease warning level
+
+
+2012-07-04  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [4c1d26844e669b596f80cdb91c934a755f52af01]
+
+tBump version
+
+
+2012-07-04  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [205148937d4ae62b2ccee11ab64c47ae9bd4abe4]
+
+tBuild the common filter logic as shared library
+
+
+2012-07-04  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [afa3f4bdbddfdafb6aae26b9ac1e9d89497344f6]
+
+tAdding new directories
+
+
+2012-05-30  Brennan Vincent  <brennanv@email.arizona.edu>  [cfb73d08684dc867e13f6e1d39636e1bdd92258e]
+
+tHandle opacity in gradients
+
+
+2012-05-15  Tomas Chvatal  <tchvatal@suse.cz>  [23ad8ccd133e6dd12a3c5c42d22b38f09ef5f0ab]
+
+tUse shared_ptr everywhere instead of sharedptr
+
+
+2012-05-15  Tomas Chvatal  <tchvatal@suse.cz>  [c915e590b4eebf85adc965cd4901608d63e0d21b]
+
+tAdd safeguards to prevent unwanted values on shared-ptr.
+
+
+2012-05-15  Tomas Chvatal  <tchvatal@suse.cz>  [5509cffc8bc3df94400af390f8359dbb0af6c093]
+
+tPrint shared ptr are we checking
+
+
+2012-05-15  Tomas Chvatal  <tchvatal@suse.cz>  [36d7a344cc9456fe4de5eebf3cdb8966c08727ec]
+
+tUse posix comparsion.
+
+
+2012-05-15  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [9f999d9c4bc4d25e6a788918251834fe4cd0939c]
+
+tState which shared_ptr one uses
+
+
+2012-05-07  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [8dd8ccc55cb8f2ff8cd3d8f25465dd794a527b4f]
+
+tWhitespace cleanup
+
+
+2012-05-07  Laurent Alonso  <laurent.alonso@inria.fr>  [e845e24a30ccbd24b33efee4623cea6150f5b303]
+
+tAdd possibility of generating foot/endnotes with text labels
+
+
+2012-04-19  Laurent Alonso  <laurent.alonso@inria.fr>  [990711d103e82ff236cf6ee4c7e998eeabe11396]
+
+tAdding libmwaw support
+
+
+2012-04-19  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [e6cf167d4a6022dc895d82899544b35a88b36a47]
+
+tAdd cmx2odg
+
+
+2012-04-15  Laurent Alonso  <laurent.alonso@inria.fr>  [45c148ec142bb6a7c7805e71d98701f19da83f07]
+
+tCheck for frame borders and frame background
+
+
+2012-04-09  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [10ed960078177315c26a35b7a334be4de9d437cc]
+
+tWrite out the groupping
+
+
+2012-04-08  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [3f72c5c1f826c794feb9097ac74be8e5971aae5b]
+
+tAllow svg preview for embedded WPG
+
+
+2012-04-08  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [af6b848c9adc3e5401c4196664811f421e3a7669]
+
+tAllow conversion of embedded images to another binary image format
+
+
+2012-04-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [032468127f7be51471e54abe45e2ecff031c1f25]
+
+tClang warnings/errors (patch Laurent Alonso)
+
+
+2012-03-13  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [27bd1e54ce3c563297bc244460ec2e9144b6475c]
+
+tC & P error
+
+
+2012-03-09  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [b6bf6d04589b6e7fb409e368c80cfa5b70254553]
+
+tUse information about position and offsets of the bitmap fill
+
+
+2012-03-09  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [431a49dca55e0088045293d5ba33e8802ecc3371]
+
+tCubic and quadratic bezier bounding boxes
+
+
+2012-03-02  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [05b11c918183324645b070cc9d575095ec2cb978]
+
+tInitial support of bitmap fills in OdgGenerator
+
+
+2012-03-02  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [cf7abf415afa76f70a7ed62616c4915b79d70b36]
+
+tOne more unused removal from LibreOffice
+
+
+2012-03-01  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [729d8babe0762f98de7a8d907413a8a2325b3b87]
+
+tExtend the gitignore file
+
+
+2012-03-01  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [d0e10c9cc0e45fe9eecdb883039852ffdb7478b8]
+
+tWhitespace changes after backport from LibreOffice
+
+
+2012-03-01  Elton Chung  <elton@layerjet.com>  [f42155c11c09a49197dacbe28569b7b103e76f19]
+
+tGet rid of size() == 0
+
+
+2012-03-01  Marc-André Laverdière-Papineau  <marc-andre@atc.tcs.com>  [947b9d625f7775f47af83be8348bf58ebcd7545a]
+
+tremoved some dead code
+
+
+2012-03-01  Mariusz Dykierek  <mariuszdykierek@gmail.com>  [83c242424319dd6cecf11afc6c59025792ad91c7]
+
+tremove extraneous qualifiers that break some compilers
+
+
+2012-03-01  Julien Nabet  <serval2412@yahoo.fr>  [2da50832da7e2a9106b861a57b3655b94d1f1b36]
+
+tSome cppcheck cleaning
+
+
+2012-03-01  julien  <julien@julienPC>  [055b7afff4c11eac67e4b69f715b541a14aa2b5e]
+
+tSome cppcheck cleaning
+
+
+2012-01-30  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c9c52c714789bc2f5c8d3a0515a0fb6b9730e8d4]
+
+tOops, typo
+
+
+2012-01-30  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [1aba581f7685f5cc834fa5e345207d9d20ee46fb]
+
+tInitial support for quadratic beziers
+
+
+2012-01-27  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [a890535cd067ca9fb6e787803a9ad269b9ef1a08]
+
+tFix the buildnumber.sh script
+
+
+2012-01-27  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [516b5b71677b94468273e8e90fafae8d7ae3f1c1]
+
+tSome more rpm fixups
+
+
+2012-01-27  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [89dc1b67cbe8c41aa7d7404a9e20136ea55020fa]
+
+tfix the spec file too
+
+
+2012-01-27  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [69eb44b9e44d3f6355ac1f689ae364ba03f85279]
+
+tBuild pub2odg if libmspub is found
+
+
+2012-01-27  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [7eea120dd1b18d8eda4e2f466b9cd99f17d157ec]
+
+tFix windows/mingw build of cdr2odg
+
+
+2012-01-26  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c2c72c2367f9729ff57b4cb06f6a0d52f8fd25ca]
+
+tFix crashes due to inexisting attribute
+
+
+2012-01-16  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [e1b20599e33209fe3f0d3cd904f651703af310d6]
+
+tImplementing text rotations
+
+
+2012-01-13  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [77ffa110c8cde884b01dc6ef310eec470ad41f85]
+
+tImplement flips and rotations of raster images in the OdgGenerator.cxx
+
+
+2012-01-13  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [2d061be7765d7c3054559b36d3e41af4153fa3f1]
+
+tAdapt to the more intuitive libvisio/libwpg API
+
+
+2012-01-12  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [0e90196d0b07d5ae88f5da4f6fabea29c9d6df7f]
+
+tSome details of style
+
+
+2012-01-12  Laurent Alonso  <laurent.alonso@inria.fr>  [ea6fc210f3182f0a2a6b21c75c111fa97f5db3a5]
+
+tDon't segfault when unable to save the file
+
+
+2012-01-12  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [59f1029d2bb91ecbd831da5c9a88bb7144b7511a]
+
+tLogical error in writerperfect
+
+
+2012-01-12  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [2ba28ad5b1b956537d55bc8e16e3bda4151b6f82]
+
+tignore more files
+
+
+2012-01-12  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [572ba1b06c8139986499501d539d3ae2feec3beb]
+
+tConsider the style:mirror property
+
+
+2011-12-06  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [96960cc52207c1aa8aa30fec17a8656469fd450d]
+
+tAllow inserting of ole objects into draw documents
+
+
+2011-12-05  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [27ca88766dad5b47f1c39e723ce6daff1b7e1af0]
+
+tAdd support for cdr2odg if libcdr-0.0 is present
+
+
+2011-11-03  Laurent Alonso  <alonso@loria.fr>  [d4161d9e566f98fbc322a9e25da4d45337bf9476]
+
+tAdd possibilty to embed ole object and to pass paragraph borders
+
+
+2011-10-28  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [586c503b784092eeda38a01319912c432b17eacf]
+
+tRemoving unnecessary header
+
+
+2011-10-28  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [143c6e2f103d34d29a2dcb82355c762411956991]
+
+tModelines for this file too
+
+
+2011-10-28  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [45712b365dbbfd5b4c009822e429d0e702dba932]
+
+tFix a memory leak with opacity gradients
+
+
+2011-10-28  Laurent Alonso  <alonso@loria.fr>  [fa9978d748dea690ef04e7c7e99709a89814d656]
+
+tBuild changes due to the use of shared_ptr
+
+
+2011-10-28  Laurent Alonso  <alonso@loria.fr>  [348212be7214c563b1f8e629fdd3bf6c98fde07a]
+
+tUse shared_ptr to avoid leaks
+
+
+2011-10-27  Caolán McNamara  <caolanm@redhat.com>  [c3c6910e2bab719a50d23f66b10d169a8be675f8]
+
+tfSectionSpaceAfter is unused
+
+
+2011-10-27  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [de7a13f10a470e9d4852aa4e6f06e2e3c6cf00f3]
+
+tSyncing with libreoffice in-tree writerperfect
+
+
+2011-10-26  Tor Lillqvist  <tml@iki.fi>  [9ee18923be8d660a6f3cdb5eceb64917c4fda83a]
+
+tNo struct lconv::decimal_point in Android's libc
+
+
+2011-10-25  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [1b14814d3a9a9ff357a69e52a4a3008fc4acadcc]
+
+tSome little simplifications
+
+
+2011-10-25  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [5fa427d648dcab2e47d06385a3787f22b4b2f447]
+
+tFormating fix
+
+
+2011-10-25  Tibby Lickle  <tibbylickle@gmail.com>  [0db85966b11fc21d2aa0f2e4b95551ae37c42a89]
+
+tAdded line marker support
+
+
+2011-10-25  Laurent Alonso  <alonso@loria.fr>  [6d33e54f27200a059a10580330119751d7d6eaad]
+
+tFix a typo + don't open a row or cell if no table is started
+
+
+2011-10-25  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [7b055276cfa0484d78ed03b01bbb5d8669d04395]
+
+tAdd Emacs and Vim modelines
+
+
+2011-10-25  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [941d13c14d2ef45b2d211d093bab8d46d8236500]
+
+tPrefer pre-increment in for loops
+
+
+2011-10-25  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [b83bd842c6b06685b7a5f5857bbebe5bc1178d3d]
+
+tWhite-space change to be consistent with our coding style (astyle -b -k3 -y -n -t -r *.?xx)
+
+
+2011-10-23  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [15520476319aa2b91db58c0ed2a29a4f9d6ec7d7]
+
+toops, forgot to add this one
+
+
+2011-10-23  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [f08240bb7b8e5786bb1ec8e974912413c1721ad0]
+
+tSome formating changes
+
+
+2011-10-23  Laurent Alonso  <alonso@loria.fr>  [eac1b3ba958d5da396c759a145962a536d82517b]
+
+tHandle styles in a more intelligent way
+
+
+2011-10-15  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [7fe7c236cc0be74cc0cf0a02075dcdf5501900c7]
+
+tTry to handle more text-box properties
+
+
+2011-10-15  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [4f34d4388195084cec387b5b5acd2b6dc2854f7f]
+
+tWhitespace change to increase visibility
+
+
+2011-10-12  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [31e46777dcb794e746a68dfff02c2924fd5dd7b6]
+
+twrite out the text margins in text block
+
+
+2011-10-04  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [7039e07ac71929c844c44ff7e346a5f545dc5a24]
+
+tMake draw:stroke==solid default for missing draw:stroke element
+
+
+2011-10-04  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [694fe11d7a1f71cb51927e693c37e8d0538dd8fd]
+
+tAllow hairlines svg:stroke-width==0 and handle special cases in the libraries themselves
+
+
+2011-09-29  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [1505b2b56c648d6cfddea7e44bcfdf27f6ffe76d]
+
+tAdapt to the new way of passing dash-arrays from libvisio, still need to adapt libwpg
+
+
+2011-09-28  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [70dca615949bd5d839d401c2053a864b7d0b0c66]
+
+tRemove one warning
+
+
+2011-09-28  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [2a19d509e86604adacb2ecf89823ea35c2d15cc7]
+
+tFix a typo
+
+
+2011-09-28  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [4242979046bd12dd4ee27e18583d43b7b275c19c]
+
+tPut back accidentally deleted stuff
+
+
+2011-09-28  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [23a489d70eefd0ea293f2262ea8f4c1fb38e66d1]
+
+tStuff the NEWS a bit
+
+
+2011-09-26  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [ef6969464dfaf60c38dda41745b356d24da6474e]
+
+tIf gradient type is not specified, assume linear
+
+
+2011-09-26  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [a7ac874be39b29931687a0cbe1aaa90a2658beed]
+
+tIf requested to use libwpg, use it indeed
+
+
+2011-09-20  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [6eebeb4267be484086c33e9f08f4efd05dca74a3]
+
+tA bit more defensive programming
+
+
+2011-09-14  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [2eb5fd02a050191c038b81e0a0784d24a55ffef6]
+
+tSome uniformization and removing of distcheck errors
+
+
+2011-09-14  Tomas Chvatal  <tchvatal@suse.cz>  [9f5398f4adbad221ce528c8f27190d7c1f5baaa4]
+
+tUse automagic decision based on libraries presence if with/without-feature is not specified.
+
+tSigned-off-by: Tomas Chvatal <tchvatal@suse.cz>
+
+2011-09-04  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [d06a831c1bafda30166cb41dfab0858f696e7c10]
+
+tOutput the Font styles in office:font-face-decls
+
+
+2011-09-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [f019f6eb3ae03d51257d8e0742a9e5464fe9c9aa]
+
+tGet rid of some warnings
+
+
+2011-09-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [81f3856bafacf869bf3e70eaec5bf3e439d77200]
+
+tAssure xml tag at the beginning of an xml file
+
+
+2011-09-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [3bc9b5e328a127c4d6f06ed7b1d73d5e8fbd5abe]
+
+ttry to use text properties
+
+
+2011-09-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [1a5eaa45ad8cea6fa5fbd5432a0bfa9ddae04793]
+
+tActually show some text
+
+
+2011-09-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [3897bc236f7d7cd52b67c33bf88d462da5752b73]
+
+tInitial work on text implementation
+
+
+2011-08-31  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [0d9cce551f730a87e4b46077b1cb61fb0751a5a1]
+
+tWriterperfect does not put copyright or license headers into build files
+
+
+2011-08-31  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [efc942b48bb1e9db496f297deb73785191286032]
+
+tBump version and fix description
+
+
+2011-08-31  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c0048358078d9e39692daebf1bd187cbeebd942e]
+
+tFix logical issues in configure.ac and also some distcheck errors
+
+
+2011-08-31  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c1f524967a97daa6d7c2466a38db290d289c7d92]
+
+tFix whitespace errors
+
+
+2011-08-31  Tomas Chvatal  <tchvatal@suse.cz>  [b53a56e240cc6eba65a4ed1336cb944d995d96c4]
+
+tUpdate the buildsystem based on libvisio approach.
+
+tSigned-off-by: Tomas Chvatal <tchvatal@suse.cz>
+
+2011-08-19  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [41e32a6fbe65a79dd2ea4e30b46200cba16526ff]
+
+tAdd possibility to build wps2odt in writerperfect too
+
+
+2011-07-22  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [ea748adb0555abbadd6ed7c07eb09837785dafa1]
+
+tWork around a bug in libwpd's WPXPropertyList::operator=
+
+
+2011-07-22  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [a19aae818e924f1a27e87e8746fb0d748509e8cd]
+
+tAdd shadow support
+
+
+2011-07-22  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [1b462082c759c794a97ca0c750fb41c647eaf0b7]
+
+tDon't output opacity gradients if the stops are completely opaque
+
+
+2011-07-22  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [efc4050a9a33f199b59dffde7da596d6677c5c04]
+
+tTry to handle correctly transparency gradients and different stroke properties
+
+
+2011-07-15  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [afece0815d7ab86e73f3c9770b2febd1595fb31b]
+
+tFix a bug in bounding box computing
+
+
+2011-07-15  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c98504e2a1c0b79eb4d17a62346849c1a0ce8507]
+
+tBounding box algorithm needs angle in radians
+
+
+2011-07-15  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [0316dc245f7d9113da4fc5bacb043db6ad8448d1]
+
+tTrying to use the svg:fill-rule in ODG
+
+
+2011-07-06  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [853fdb131f44413eb375814339608f8b8275d2c4]
+
+tSome more ODG style mappings that LO understands and displays properly
+
+
+2011-07-06  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [3c6eab04a78cabc7f82fad5e5278cf1aabbdd4ea]
+
+tTrying to work around some inperfections of odf
+
+
+2011-07-05  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [ff714212b57680b15dd007e48c54a37c0884ff59]
+
+tHandle svg and odf expressions of gradients
+
+
+2011-06-22  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [fad80bdde8468c68df3042f1e3b8959348f51923]
+
+tBe gracious with broken paths
+
+
+2011-06-21  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [43868ae9ac3cff9dad6cc5a81c754b798c2c4dee]
+
+tWhite-space cleanup
+
+
+2011-06-21  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [f5fb7ba8088e51653ce0118340c320798d265816]
+
+tAdd bounding box of an elliptical arc and output the 'A' element
+
+
+2011-06-14  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [dc681e04f4d79e4da2fd17a71048882523a44c93]
+
+tvsd2odg is handling Visio Documents
+
+
+2011-06-10  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [af608c3a3cba5f9cd77a6d81736c160c577fbeb9]
+
+tFor the time being, approximate elliptic arc with a line
+
+
+2011-06-09  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [abac3acbb9011ec49001816eb8d7eb416f8202b1]
+
+tupdate .gitignore
+
+
+2011-06-09  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [2d2c145e8c2d9bd93211785340f3c9f306107c51]
+
+tWorkaround a limitation of draw
+
+
+2011-06-09  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [65d8f20a799ddd90eebab1643d8449650fe687fd]
+
+tAdd the posibility to build vsd2odg if asked nicely and if libvisio is present
+
+
+2011-06-08  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [5619c55c724f5bf5200eb35dd3adbe4120dad34e]
+
+tAllow generation of multipage draw documents
+
+
+2011-05-09  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [e26db14773e926a4e96a53df8841bf3bb17b67a1]
+
+ts/NULL/0/g
+
+
+2011-05-06  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [ec71c0c2e7d6cb973a20712e530c360bddad2abf]
+
+tfix some warnings and remove 2 unused files
+
+
+2011-05-06  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [8e78fad0a612c8c57a21045a90bb61666666ac1c]
+
+tUse function pointers instead of objects
+
+
+2011-05-06  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [e903701fa151e2a481163058aee839cbe86cfe7c]
+
+tremove any reference to libwpg in OdtGenerator.cxx
+
+
+2011-05-06  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [6f13b001fc90dd81accbeccc7c4856898bbcfde9]
+
+tMake handler for embedded objects pluggable
+
+
+2011-05-05  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [0b05066e5e1f52ffe0d6aba7880b924cb7ecd5d3]
+
+tDon't inline future api functions
+
+
+2011-05-05  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c220840c62bf943c4e078e8872b37d7486a65d76]
+
+tRefactoring writerperfect in view of using it as a shared library
+
+
+2011-05-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [e667905e22c0fa7c38b6e805518c6616cde4e0e3]
+
+tRevert "try to round so that 32-bit and 64-bit produce similar results"
+
+tBecause it does not help :)
+
+tThis reverts commit d4ecf631c0cd986ce864d5eaff5c269d86fd6f24.
+
+2011-05-03  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [d4ecf631c0cd986ce864d5eaff5c269d86fd6f24]
+
+ttry to round so that 32-bit and 64-bit produce similar results
+
+
+2011-01-23  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [8315a41debcbb3c2f3beab50c8cc58d482fb315a]
+
+tFix some warnings
+
+
+2010-12-06  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [021b9979672aa701edd6ce3afa9e102bb796271c]
+
+tFix the spec file and its generation so that it works
+
+
+2010-11-16  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [23bc2e27a95a259d06f6cd43caf6e9c5a875efb4]
+
+tSmall addition
+
+
+2010-11-16  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [91cb2d6a37501249b05a10677584921189fad66b]
+
+tPrepare news in view of 0.2.0 release
+
+
+2010-11-10  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [b4586b1d97f36bc4033da6a7549bbdd6c69d5a38]
+
+tAutogenerate ChangeLog at make dist time + rename CHANGES to NEWS
+
+
+2010-11-09  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [719f36cf66e9f3f75f99beb15a9566be93b77247]
+
+tFix some executable permissions
+
+
+2010-11-06  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [3f228023a33a6fa439b3b273d7a29f5a20f6fd30]
+
+tRemove obsolete type
+
+
+2010-11-02  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [b2e9b9c7b184703b68179cc49011fc8935bf6996]
+
+tAdapt to the insertSpace callback and fix some white-space issues
+
+
+2010-10-19  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [907491666dea4c12e3473121239c5484b3877b6c]
+
+tMake valgrind happy with more headers of the same type
+
+tNevertheless, this is not solving in any way the inconsistency we have in libwpd
+
+2010-10-19  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [c741bf12c97012d4ebc6a5c643b2204af5d5aba9]
+
+tUse const WPXString & instead of const char * wherever it is possible
+
+
+2010-08-15  William Lachance  <wrlach@gmail.com>  [544a342a40f5191736fff5f08abee898964ddc9c]
+
+tUpdates for libwpd insert field changes
+
+
+2010-07-21  William Lachance  <wrlach@gmail.com>  [cf2e5ca86baed9653c4f1656a508d60fbc38ee42]
+
+tSupport different types of numbering styles (italics, numerals, etc.)
+
+
+2010-07-21  William Lachance  <wrlach@gmail.com>  [58832b875510444e638382d0cfe88bda27300a70]
+
+tIf page starts with a list element, don't associate master page with next para
+
+tSince paragraphs are now associated with master page styles, we need to
+tdo this or else we'll have an unwanted page break in this case.
+
+2010-07-21  William Lachance  <wrlach@gmail.com>  [e18e16be8e30b5611e237875df8fbd44e995d4b8]
+
+tSupport page renumbering
+
+
+2010-07-13  William Lachance  <wrlach@gmail.com>  [b62a0e282deccc24886f4639e59b8c89f52a8b9d]
+
+tBasic page numbering support (in line with libwpd changes)
+
+
+2010-07-13  William Lachance  <wrlach@gmail.com>  [2e96793eb27bab64f2be39615e4e679f7057546f]
+
+tIgnore object files as well
+
+
+2010-07-13  William Lachance  <wrlach@gmail.com>  [0838f44d06bb115c7268adcb74e6e5f6840bcc1b]
+
+tBulk move .cvsignore to .gitignore
+
+
+2010-06-22  Fridrich Strba  <fridrich.strba@bluewin.ch>  [4fe9ee11284636f76cb52b9722437e7422aff847]
+
+tAdapt to libwpd changes
+
+
+2010-06-10  Fridrich Strba  <fridrich.strba@bluewin.ch>  [a2a0a6c204c08a2fab5f043a9b15943dd5f274f5]
+
+tAdapting to the recent libwpg interface changes
+
+
+2010-06-08  Fridrich Strba  <fridrich.strba@bluewin.ch>  [6b6c5b761497cc6d8932db52cd5cd07db6ed4870]
+
+tAdapting to recent changes in libwpg api
+
+
+2010-06-07  Fridrich Strba  <fridrich.strba@bluewin.ch>  [5936e1ab807eaaa5b0ee817eaa3d49c590e5c649]
+
+tTrying to generate correct elliptical arc in odg
+
+
+2010-06-04  Fridrich Strba  <fridrich.strba@bluewin.ch>  [98b7abbaba8ce780df84ed779d5aab705cc87e08]
+
+tAdapting to the new callbacks in libwpd
+
+
+2010-06-04  Fridrich Strba  <fridrich.strba@bluewin.ch>  [7e9469d7a8f861a2a05f11cf87b04f391ccb1c20]
+
+tEmpty gradient array means that object is not filled
+
+
+2010-06-03  Fridrich Strba  <fridrich.strba@bluewin.ch>  [5036b7945392fba0eb773d8b14fac1be7d14be7d]
+
+taddapting to API changes in libwpd
+
+
+2010-06-03  Fridrich Strba  <fridrich.strba@bluewin.ch>  [796c7660b9b125565cf2af2dabf1789d40d234c8]
+
+tPutting the right elements into the right streams for ODG
+
+
+2010-06-03  Fridrich Strba  <fridrich.strba@bluewin.ch>  [3fff7120fe6f82d5fb6756f820ff3f6f0fd6b51b]
+
+tSome more code of separating different streams
+
+
+2010-06-03  Fridrich Strba  <fridrich.strba@bluewin.ch>  [8103092b084d1f70e211d0f93071f0f18834e170]
+
+ttrying to separate ODG streams
+
+
+2010-06-03  Fridrich Strba  <fridrich.strba@bluewin.ch>  [d4b6365fc1c10663bc220450ae71302e8d50d112]
+
+tuse draw:transform instead of svg:transform
+
+
+2010-04-14  Fridrich Strba  <fridrich.strba@bluewin.ch>  [242df9e644f501a9090dbeae2cb9e753ccbd5d5d]
+
+tactually allow to build with libwpg :)
+
+
+2010-04-13  Fridrich Strba  <fridrich.strba@bluewin.ch>  [d856fb494a3f07898b94f2ec2b3b6a2d84bb642e]
+
+tAllow build wpg2odt when required libwpg is not present
+
+
+2009-09-14  Fridrich Strba  <fridrich.strba@bluewin.ch>  [62f4f6a4bcbbd3e522a9e268dfb9d247db3a34e7]
+
+tDisable dash array since it is a work in progress right now
+
+
+2009-09-07  Fridrich Strba  <fridrich.strba@bluewin.ch>  [d1d16e8040dff4073931370f4bdff0190db32cbb]
+
+tdon't consider the dash-array before it is correctly reimplemented
+
+
+2009-09-07  Fridrich Strba  <fridrich.strba@bluewin.ch>  [1d99c5718454ef142cab88c881f31e3ea08783ef]
+
+tadapting to the head of libwpg
+
+
+2008-12-10  Fridrich Strba  <fridrich.strba@bluewin.ch>  [7a5af780c55652018e7dc51b77e99d2a286b77bd]
+
+tmove gradient angle from WPGGradient class to the general style (we will get rid of WPGGradient soon)
+
+
+2008-12-05  Fridrich Strba  <fridrich.strba@bluewin.ch>  [13000a8c9fa6f9b4f9c9c2c3c4be4d1fa37f7633]
+
+tcommitting work done in the train while having wireless access
+
+
+2008-12-05  Fridrich Strba  <fridrich.strba@bluewin.ch>  [10a4defd44ee2e761c4ae6bd65e687cfa19fa02a]
+
+tWPGBrush::style went, so learn to live without it
+
+
+2008-12-04  Fridrich Strba  <fridrich.strba@bluewin.ch>  [a4bc9d4f16c6ff9bf1b504986c425bdda1af8b51]
+
+tadapting to the removal of WPGColor.h from libwpg's API
+
+
+2008-12-03  Fridrich Strba  <fridrich.strba@bluewin.ch>  [76edf9764b2a983a9764113df8da3a635f98a95f]
+
+tdon't use the WPGColor data members directly (the corresponding header will soon be removed from the public api)
+
+
+2008-12-03  Fridrich Strba  <fridrich.strba@bluewin.ch>  [f636c8fd08569fc2eb1b15da86f43780ee946207]
+
+tsome more float -> double changes
+
+
+2008-12-03  Fridrich Strba  <fridrich.strba@bluewin.ch>  [70695520f55b89f5896bb4cfc6f4d8bbd4ac0f73]
+
+tadapting to the fact that getFloat -> getDouble in WPXProperty class
+
+
+2008-11-28  Fridrich Strba  <fridrich.strba@bluewin.ch>  [5ef7f05d777e3c0ae628e06ef675877f155211ee]
+
+tadapting to the new setStyle callback
+
+
+2008-11-28  Fridrich Strba  <fridrich.strba@bluewin.ch>  [539ff0dcc3e0ee8dd4316c966e5dbc322e093fa5]
+
+tadapting to the fact that WPGBitmap is not in public api anymore
+
+
+2008-11-27  Fridrich Strba  <fridrich.strba@bluewin.ch>  [ef89c38d8565c0ef7f98f4e22a1f733d977bb0f5]
+
+tadapt to the setFillRule api change
+
+
+2008-11-27  Fridrich Strba  <fridrich.strba@bluewin.ch>  [6576b17e0ff90be11ee211df9f1492c42692025b]
+
+tadapt to the absence of WPGRect and to the WPGBitmap API changes
+
+
+2008-11-27  Fridrich Strba  <fridrich.strba@bluewin.ch>  [d7111ac54bcc0ee6b27c8b7cd5373b44c461e015]
+
+tadapt to the fact that WPGPoint went
+
+
+2008-11-25  Fridrich Strba  <fridrich.strba@bluewin.ch>  [4e526c8b230154dc27dafc8132ba01133965a243]
+
+taddapting to the new drawPolyline, drawPolygon and drawPath callbacks
+
+
+2008-11-24  Fridrich Strba  <fridrich.strba@bluewin.ch>  [14e8c03cd686f2f64f58fecdf37b86d8c6ef4834]
+
+taddaptation of writerperfect to the first step in the struggle to simplify libwpg api
+
+
+2008-11-11  Fridrich Strba  <fridrich.strba@bluewin.ch>  [c2997ee949fe09244078145fd46ad147d63f545c]
+
+tan include to fix compilation with upcoming gcc-4.4.x
+
+
+2008-11-09  Fridrich Strba  <fridrich.strba@bluewin.ch>  [b177e1ccdac652d484c25caea927aaa3cc5d6209]
+
+taddapt to the new style:wrap property of a frame
+
+
+2008-10-29  Fridrich Strba  <fridrich.strba@bluewin.ch>  [0fbeff5f90d1336e2bffe40c14a45245491bab78]
+
+tpassing WPXBinaryData as const ref instead of const pointer
+
+
+2008-10-13  Fridrich Strba  <fridrich.strba@bluewin.ch>  [3f42da710deb4bd4c4090ce9d2a044aa722d0f63]
+
+thandle correctly even embedded headerless WPG1 images
+
+
+2008-08-15  Fridrich Strba  <fridrich.strba@bluewin.ch>  [9c0f6c4f7d80c360603c874fd62c84078c83a142]
+
+tremove a comment that need not be there
+
+
+2008-08-15  Fridrich Strba  <fridrich.strba@bluewin.ch>  [859829435f3f9dd7f53a5aae069508ed24989e70]
+
+tremove an unused method + set framework for importing images in other formats then WPG embedded in WordPerfect documents
+
+
+2008-07-17  Fridrich Strba  <fridrich.strba@bluewin.ch>  [606e615aebd23be1cd0064afbcb3413c5e5d899f]
+
+tget the rotated ellipses right in OpenOffice.org
+
+
+2008-07-16  Fridrich Strba  <fridrich.strba@bluewin.ch>  [0d9b3bd9296b66aeeb10c3b9203c4dfb89683807]
+
+ttry to handle the rotation of ellipses in odg too
+
+
+2008-07-11  Fridrich Strba  <fridrich.strba@bluewin.ch>  [ed2e0ce8b152c22578e9679f2ca1156fa1632d5c]
+
+timplement the polyline and polygon so that the former is not closed and the later is
+
+
+2008-07-10  Fridrich Strba  <fridrich.strba@bluewin.ch>  [8ddebd60a86bfb1180babe222a469678b8997b3a]
+
+tdummy implementation of new callbacks
+
+
+2008-04-24  Fridrich Strba  <fridrich.strba@bluewin.ch>  [e18ec64671dedc9f15ded386dfcd692239f64133]
+
+tget the right define + write out the styles.xml too as it seems that OOo does need it to operate correctly
+
+
+2008-04-22  Fridrich Strba  <fridrich.strba@bluewin.ch>  [3d29b8a4c12f2a4932e9e104f1611f7b11e8ad0b]
+
+tsome insignificant formating changes
+
+
+2007-12-06  Fridrich Strba  <fridrich.strba@bluewin.ch>  [0ea137e815fc918aa8407f911f6941c6a1501383]
+
+tsome little modifications of the frame properties
+
+
+2007-12-06  Fridrich Strba  <fridrich.strba@bluewin.ch>  [770717347b5defdcc260c9c56eccde8b64490a80]
+
+tremoving a memory leak
+
+
+2007-12-06  Fridrich Strba  <fridrich.strba@bluewin.ch>  [e3cbfa9c830a9ef539418e519e5840832677a089]
+
+tget a separate WriterDocumentState for text boxes
+
+
+2007-11-28  Fridrich Strba  <fridrich.strba@bluewin.ch>  [8a24951fdb50e97ca6167a3e96a4dcbeb4663291]
+
+tsome little simplifications + use the libwpd's password verification API
+
+
+2007-11-27  Fridrich Strba  <fridrich.strba@bluewin.ch>  [13028064df4642f68e7b537642a09171f0363d4d]
+
+tsmall modification: the typedetection should be independent of an existence or not of a password
+
+
+2007-11-23  Fridrich Strba  <fridrich.strba@bluewin.ch>  [64463be2ae64d7e1f302094fdb5b16373937cda0]
+
+tallow passing of password using --password=something
+
+
+2007-11-22  Fridrich Strba  <fridrich.strba@bluewin.ch>  [e4a969e9036afe287b100efe9e3e5a219bd78cfc]
+
+trewrite the option parsing + allow converting of password protected wpd documents
+
+
+2007-11-22  Fridrich Strba  <fridrich.strba@bluewin.ch>  [335aee8d2a040b0dba4298123b851a5e47b4924d]
+
+tenable conversion of password protected documents that we know how to decrypt (WP1, WP3, WP42 and WP5)
+
+
+2007-11-16  Fridrich Strba  <fridrich.strba@bluewin.ch>  [5571c197e6a42d9584776dbf995e7201df08ece8]
+
+tFemtoZip does not manage deflate, so use only storing
+
+
+2007-11-15  Fridrich Strba  <fridrich.strba@bluewin.ch>  [5701e62dca30c5736c6232ef6534047908b6fb8d]
+
+ttry to get the return values correctly
+
+
+2007-11-15  Fridrich Strba  <fridrich.strba@bluewin.ch>  [5fe446bf45e4fdb35f7c2692262edc4e3f6da2b8]
+
+tmake use of libgsf optional and defeault to not to use it
+
+
+2007-10-26  Fridrich Strba  <fridrich.strba@bluewin.ch>  [a0586aa62f8e4aade90f1749fcd771a13807961c]
+
+tremove build and packaging system for OOo plugin + abstract zip-file creation, so that one can change backend without too much pain
+
+
+2007-10-26  Fridrich Strba  <fridrich.strba@bluewin.ch>  [7eef5c65503b01029d5ab5b19fd185fdf2e62e84]
+
+tremoving packaging directory
+
+
+2007-10-26  Fridrich Strba  <fridrich.strba@bluewin.ch>  [4184f526d0a240b70c6e5abe40f92c875794420f]
+
+tremoving NSIS installer directory
+
+
+2007-10-26  Fridrich Strba  <fridrich.strba@bluewin.ch>  [5315b170a62742081fb5d311f2b231d976c07a52]
+
+tremoving even this one
+
+
+2007-10-26  Fridrich Strba  <fridrich.strba@bluewin.ch>  [ebc6b5286289e5c547c4382278ad7a66f1021bfc]
+
+tremoving the ooo plugin from sources (unmaintained and obsolete)
+
+
+2007-10-26  Fridrich Strba  <fridrich.strba@bluewin.ch>  [adba87a6707fc03d1a52f11f27caf5130029eaeb]
+
+ttry to unify as much functions as possible to extract them into a helper class later
+
+
+2007-10-26  Fridrich Strba  <fridrich.strba@bluewin.ch>  [63b1b468de09c681b690c87f119f25fecb51d0c6]
+
+tno need anymore of a patch for OOo 1.1 SDK
+
+
+2007-10-24  Fridrich Strba  <fridrich.strba@bluewin.ch>  [6df0342a534909ea1bd2ea8de7559f8502cbffb4]
+
+tsuperfluos static_casting from derived class pointer to a base class pointer
+
+
+2007-10-19  Fridrich Strba  <fridrich.strba@bluewin.ch>  [99327f33fab43d793a497e3e3c24904c035f2ae9]
+
+tadapt to the new location of libwpd-stream headers
+
+
+2007-10-19  Fridrich Strba  <fridrich.strba@bluewin.ch>  [e22d7e74b0f894216811becdb196396098e7e838]
+
+tupdate the spec file
+
+
+2007-10-19  Fridrich Strba  <fridrich.strba@bluewin.ch>  [9b3430a97cd5dba791ac828ff9ffebaf2cd8dafa]
+
+tsince our C++ streams perform reasonably well, we don't need gsf for input anymore
+
+
+2007-10-19  Fridrich Strba  <fridrich.strba@bluewin.ch>  [8ba74524c349fdc16c0bbea5c23053145ccde8ee]
+
+tremoving some unnecessary use of uint8_t in favour of unsigned char
+
+
+2007-10-17  Fridrich Strba  <fridrich.strba@bluewin.ch>  [0fcc02028ab54f0390e7542c52b1e775d9ff5795]
+
+tsome reformating + adding some more properties to handle
+
+
+2007-10-15  Fridrich Strba  <fridrich.strba@bluewin.ch>  [d1a051ffffe29fdef08af2d802fad04f71467708]
+
+twithout this cast, the angle is a bogus number
+
+
+2007-10-12  Fridrich Strba  <fridrich.strba@bluewin.ch>  [c50ffcaeddeda1f5feb01cf38fb84c417a4751e8]
+
+tinitial and thus lame support of text boxes in writerperfect
+
+
+2007-10-11  Fridrich Strba  <fridrich.strba@bluewin.ch>  [3ac9b1720e2773d709a7d1c634de7f16b369041c]
+
+tadapting to the new libwpd api
+
+
+2007-10-02  Fridrich Strba  <fridrich.strba@bluewin.ch>  [0750ea3caf3edb35341e6bb1b8225578227b8767]
+
+tsometimes, libtoolize is called glibtoolize
+
+
+2007-09-10  Fridrich Strba  <fridrich.strba@bluewin.ch>  [450ba9196da08652ff8d8706aa3acae0c4966ac8]
+
+tfix some includes to build with gcc 4.3 + some copyright files
+
+
+2007-09-03  Fridrich Strba  <fridrich.strba@bluewin.ch>  [1c8cad3a0ba4100666213ab0d0dda7d10e2173aa]
+
+tmake distcheck pass well
+
+
+2007-09-02  Fridrich Strba  <fridrich.strba@bluewin.ch>  [07d71d85ab90bf2daa06c24deb2bf57b962e22aa]
+
+tadd zip target for easy release binaries packaging
+
+
+2007-09-02  Fridrich Strba  <fridrich.strba@bluewin.ch>  [6b7b8a3b67b1230b51993913981d1bdb567c35fb]
+
+t--enable-static-tools for building as static as possible wp?2od? binaries
+
+
+2007-08-25  Fridrich Strba  <fridrich.strba@bluewin.ch>  [37bd9bab0c388465d64c0b4d1339ca1e0c7a98a8]
+
+tmake cross-compiling smooth
+
+
+2007-07-23  Fridrich Strba  <fridrich.strba@bluewin.ch>  [ff3b5446f15831b883124dd9f8891ca589397102]
+
+thandling comments/annotations
+
+
+2007-07-18  Fridrich Strba  <fridrich.strba@bluewin.ch>  [1f06de1c2048292ba88f7a5dad6147ecd69b0487]
+
+tdon't need the compatibility stuff
+
+
+2007-07-17  Fridrich Strba  <fridrich.strba@bluewin.ch>  [90ea5291241d778b54f76cef01551b8aa29b7ef7]
+
+tpushing sound defaults to workaround some sillies and mimic a bit better WP behaviour
+
+
+2007-07-17  Fridrich Strba  <fridrich.strba@bluewin.ch>  [30de95e21a3a92fbe9a2911de660f90d7cedc6e8]
+
+toops
+
+
+2007-07-17  Fridrich Strba  <fridrich.strba@bluewin.ch>  [09d3026bf02c7d444b9206013704a758830eef24]
+
+tsome belts and braces around negative values
+
+
+2007-07-17  Fridrich Strba  <fridrich.strba@bluewin.ch>  [2d5c7cbf292003ebd4e4b2935954902ccb9a3214]
+
+tdo not create draw:object tag if there is no object to insert
+
+
+2007-07-16  Fridrich Strba  <fridrich.strba@bluewin.ch>  [1645da097302b7cce96616eb0376081fbfe6d229]
+
+tgetting rid of g_return_val_if_fail
+
+
+2007-07-14  Fridrich Strba  <fridrich.strba@bluewin.ch>  [a2a6c4cf7fcf822328a200ed01b175b9a997f727]
+
+tfilter attributes from dcterms namespace also when writing out the metadata. ODF specs do not speak about this namespace, so let's be here strict schema compliant
+
+
+2007-07-14  Fridrich Strba  <fridrich.strba@bluewin.ch>  [ad14f2825e3a615ffd3df315828501a87d421b09]
+
+tfix a bug where a list was interrupted by a footnote that also contained a list
+
+
+2007-07-13  Fridrich Strba  <fridrich.strba@bluewin.ch>  [3d7efaa2ef3b6e6c1af75d92fea1673798119f8c]
+
+tsmall insignificant change in some private functions
+
+
+2007-07-12  Fridrich Strba  <fridrich.strba@bluewin.ch>  [f33f64f8d9ac8f65765e0e6bb3002220cf4e0a11]
+
+tmetadata cannot have tag elements inside the string + escape the font name in case it is something that might confuse xml parser
+
+
+2007-07-12  Fridrich Strba  <fridrich.strba@bluewin.ch>  [579969fdff1a335206bbc86b029dba95fb7818fb]
+
+tworking around the fact that only two pairs of draw:dotX are allowed
+
+
+2007-07-12  Fridrich Strba  <fridrich.strba@bluewin.ch>  [95eb797f954de6476266204c1c3d90a459e89383]
+
+tsome regressions with bullet-char and some real bug discovered in the unordered list styles
+
+
+2007-07-11  Fridrich Strba  <fridrich.strba@bluewin.ch>  [06b37adfc00eadba3acf5c6af5331d7f87a2468f]
+
+tavoid an invalid text:start-value value (kind of hack)
+
+
+2007-07-11  Fridrich Strba  <fridrich.strba@bluewin.ch>  [81993741a1eda791cc724b91d159d68b64163ec3]
+
+tfor bullet char, take only the first one if they are more then one
+
+
+2007-07-11  Fridrich Strba  <fridrich.strba@bluewin.ch>  [3b57c3d3708c05e6c9462088892c285c7d52dc38]
+
+tinternalize the GSFStream class, because it will be removed in some seconds from libwpd
+
+
+2007-07-11  Fridrich Strba  <fridrich.strba@bluewin.ch>  [eb07b0a71ab9475b27d5366efda81c26323a99c3]
+
+tescape strings where it is necessary
+
+
+2007-07-09  Fridrich Strba  <fridrich.strba@bluewin.ch>  [0b1e1943aa12697b9e77a9f37da2fc6f8329c1fa]
+
+tdistance shouldn't be in percentage (investigate more when not tired)
+
+
+2007-07-09  Fridrich Strba  <fridrich.strba@bluewin.ch>  [b605b47642eaa9ad1fb4b42ce6cac36ef565cfa4]
+
+toops
+
+
+2007-07-09  Fridrich Strba  <fridrich.strba@bluewin.ch>  [d0d6dc71c56684add253612ab4c416bc25b48251]
+
+tfix sillies that make WPXString::sprintf hang
+
+
+2007-07-09  Fridrich Strba  <fridrich.strba@bluewin.ch>  [6e1de12fa37f4d347af1532172b86138acd5e780]
+
+tworking around some oddities with empty bullet strings
+
+
+2007-07-08  Fridrich Strba  <fridrich.strba@bluewin.ch>  [6c4cccf129222a9c68a3797308665d40b12c8c12]
+
+tcorrect a typo + fiddle with mimetypes :-( and OOo bug + work around a gsf bug on x86_64
+
+
+2007-07-08  Fridrich Strba  <fridrich.strba@bluewin.ch>  [bfe81d5f60ae2b97d83a1321e607e69174d132c7]
+
+tadding namespace declaration for dublin core
+
+
+2007-07-07  Fridrich Strba  <fridrich.strba@bluewin.ch>  [57e94e1fa43174345108adbe4549733a299bc13b]
+
+tnecessary with certain stl implemetations like stlport 5.1
+
+
+2007-07-07  Fridrich Strba  <fridrich.strba@bluewin.ch>  [3f9a80de25d65b74b8c7edc13df90f6a7d54631d]
+
+tfinally, the validity might be solved
+
+
+2007-07-07  Fridrich Strba  <fridrich.strba@bluewin.ch>  [c4861b5e1a198a8c9240e570c6b4fc8f65fe7599]
+
+ttrying to fix some header validation issue
+
+
+2007-07-06  Fridrich Strba  <fridrich.strba@bluewin.ch>  [dc6d9913d7d05bae29146cb58e21b8654373548a]
+
+tenabling David Hislop's work on metadata conversion in libwpd + hopefully the final fix of gsf goodness
+
+
+2007-07-06  Fridrich Strba  <fridrich.strba@bluewin.ch>  [59442e6de98d95d1a23ec83733e1d3994bd2a925]
+
+tsum1's mouth reopened and closed again
+
+
+2007-07-06  Fridrich Strba  <fridrich.strba@bluewin.ch>  [8ac4f021324391327a51001f652946d3234d71d9]
+
+tsince it does not crash or leak memory and it can help to shut sum1's mouth, so committing
+
+
+2007-07-05  Fridrich Strba  <fridrich.strba@bluewin.ch>  [690be08f0af06c62bc7546087bb48b6b00b45c9c]
+
+tin odf, style:{header,footer}-left is inside style:{header:footer}
+
+
+2007-07-05  Fridrich Strba  <fridrich.strba@bluewin.ch>  [e9a3d38a29f988bc33bb7303c4f5ab09179c7e49]
+
+tmake the usage message conform to the reality
+
+
+2007-07-05  Fridrich Strba  <fridrich.strba@bluewin.ch>  [c4c3026df6eb98ce96c30dd0f5fac147d85636d9]
+
+ta little Change
+
+
+2007-07-05  Fridrich Strba  <fridrich.strba@bluewin.ch>  [87b592b88666812ba792e243a3367f76c098ade9]
+
+tmake the uncompressed mimetype stream optional only if the GSF functionality exists (don't bother users on old systems with this)
+
+
+2007-07-05  Fridrich Strba  <fridrich.strba@bluewin.ch>  [7b09dfc75defad277f91ca44c755f6a4d045da29]
+
+tdon't compress mimetype stream
+
+
+2007-07-04  Fridrich Strba  <fridrich.strba@bluewin.ch>  [40b8d83d03ca6c8af1f8964ef5de82e5bea35ba0]
+
+tprepare writerperfect for receiving information about the positioned box from libwpd
+
+
+2007-07-03  Fridrich Strba  <fridrich.strba@bluewin.ch>  [fcca55d24a0444f8a21ca365cd0f32d048fd96be]
+
+tadapt to the new libwp.fs_experimental api
+
+
+2007-07-02  Fridrich Strba  <fridrich.strba@bluewin.ch>  [b85b042ae0f87142e2656c5dd1abf5cf193f9d57]
+
+tadapting to recent libwpd changes
+
+
+2007-07-01  Fridrich Strba  <fridrich.strba@bluewin.ch>  [25cadcad8f44aa443b7386b78a61e7966718039f]
+
+tadapting to the new libwpd interface (again)
+
+
+2007-06-30  Fridrich Strba  <fridrich.strba@bluewin.ch>  [7a9a2bf73dff0c386770b1a6cb5a110549a03bb6]
+
+tadapting to the new libwpd interface
+
+
+2007-06-29  Fridrich Strba  <fridrich.strba@bluewin.ch>  [bbf96fa96c146c3e44e01c4594fecd35c4e91169]
+
+tand forgot to modify this one
+
+
+2007-06-29  Fridrich Strba  <fridrich.strba@bluewin.ch>  [4e95250e113ebd01fd6fcf0fdbed842dec486355]
+
+treorganizing the ooo directory, it is probably very broken now
+
+
+2007-06-29  Fridrich Strba  <fridrich.strba@bluewin.ch>  [3816bee9d88ffc2c2376464a95065b3bc97bf788]
+
+tsome little fixes to make the images scale well in side the box + incorporate wpg2odg into writerperfect (hope, ariya will not scream a lot)
+
+
+2007-06-28  Fridrich Strba  <fridrich.strba@bluewin.ch>  [350439f5b97fa5dbb790f6a8efae45440439132e]
+
+tsome more commits to improve my statistics
+
+
+2007-06-28  Fridrich Strba  <fridrich.strba@bluewin.ch>  [29d85ca5128aa68adf234792570e6cb93387965f]
+
+ta small commit just to increase my number of commits in the statistics
+
+
+2007-06-28  Fridrich Strba  <fridrich.strba@bluewin.ch>  [ec6185595bae98b43227d5dbda8253dbb4d72104]
+
+tall is in the right mimetype specification
+
+
+2007-06-28  Fridrich Strba  <fridrich.strba@bluewin.ch>  [fd87da64d8d0de4472062b7da937a0ddc24df1af]
+
+tsome more changes, maybe it will make sense to join wpg2odg and wpd2odt since the sources are used among them
+
+
+2007-06-27  Fridrich Strba  <fridrich.strba@bluewin.ch>  [a806b8cc12c09820e6c991bb1a176bc621012af6]
+
+tso, now we get some images displayed in the odt (a lot of work remaining though)
+
+
+2007-06-26  Fridrich Strba  <fridrich.strba@bluewin.ch>  [3ebe1f9c831809de92fdbeb995d668d588525b56]
+
+ttrying to add some graphics handling to wpd2odt
+
+
+2007-06-26  Fridrich Strba  <fridrich.strba@bluewin.ch>  [f3709b7a4ca0b1b02e4275df7e867e6400b95e42]
+
+tstub for graphics styles
+
+
+2007-06-26  Fridrich Strba  <fridrich.strba@bluewin.ch>  [ca8f5112397dfb22272f38597a2689f8b94c4db6]
+
+tdepend on libwpg for the images
+
+
+2007-06-25  Fridrich Strba  <fridrich.strba@bluewin.ch>  [dc7b009e56311aeea950ced98b0e54265b8606e7]
+
+tadapt to the new libwpd abi
+
+
+2007-06-25  Fridrich Strba  <fridrich.strba@bluewin.ch>  [f21b6da1565ec532fa7d0b195ebbaac298282d33]
+
+tporting fs_odf_porting to head, since we branched STABLE-0-7-0
+
+
+2007-05-08  Fridrich Strba  <fridrich.strba@bluewin.ch>  [ebd93233d5b8929a0c615cd9c1c35194ffe2e14d]
+
+tand what if they are shorter then 6 chars??? Do not optimize before profiling :-)
+
+
+2007-03-08  Fridrich Strba  <fridrich.strba@bluewin.ch>  [8e5eec8f076ee31a8e7d640759eeef4d0a3f9962]
+
+tOOo does not accept negative space between paragraph and so, ignore condensed paragraphs when creating and SXW file
+
+
+2006-12-20  Fridrich Strba  <fridrich.strba@bluewin.ch>  [54f829af7742998ea8b70e0bc34405c69026c76a]
+
+tsmall change :-)
+
+
+2006-12-11  Fridrich Strba  <fridrich.strba@bluewin.ch>  [08d4d1e8175c78b749a3d9764d9ce2f364801299]
+
+ttrying to save one strlen call per string
+
+
+2006-12-07  Fridrich Strba  <fridrich.strba@bluewin.ch>  [b9b671c153ad4165315b07776fc375deff4edcd5]
+
+ts/gsf_output_printf/gsf_output_puts/
+
+
+2006-12-07  Fridrich Strba  <fridrich.strba@bluewin.ch>  [9acec107a260441153f9ab237fc21465d010b6cd]
+
+toops
+
+
+2006-12-07  Fridrich Strba  <fridrich.strba@bluewin.ch>  [d2b0ca36e6c674e308b91810ef0dd6ef2da8a711]
+
+tsmall cleanup
+
+
+2006-12-06  Fridrich Strba  <fridrich.strba@bluewin.ch>  [5516f16fda0cec75e2f047490e117fa7b947707f]
+
+tworkaround for problem with gsf_output_printf on x86_64
+
+
+2006-12-03  Fridrich Strba  <fridrich.strba@bluewin.ch>  [15c48948df35ea4ec258a28c5b884625840ca689]
+
+tsome more warnings gone
+
+
+2006-12-02  Fridrich Strba  <fridrich.strba@bluewin.ch>  [cc74da21df2a4275ad0765e67d331f13d4d86d06]
+
+twith this one, nothing is leaking, at least using --stdout option
+
+
+2006-12-01  Fridrich Strba  <fridrich.strba@bluewin.ch>  [ea1323c6e480160c6d326ebd160ae17446528ae7]
+
+tmore leaks out and some more code optimization
+
+
+2006-12-01  Fridrich Strba  <fridrich.strba@bluewin.ch>  [0136e4ac76a6aede72765b4d24b50a32ce859458]
+
+tsome more leaks removed
+
+
+2006-11-30  Fridrich Strba  <fridrich.strba@bluewin.ch>  [659393c931e91ee9fcdf2a24684ab8447b35c8ea]
+
+ttrying to remove some of the numerous memory leaks in writerperfect :-(
+
+
+2006-11-30  Fridrich Strba  <fridrich.strba@bluewin.ch>  [c2467f7331d7e7448e4239ed605d49422bab3994]
+
+tsmall fix and version change
+
+
+2006-11-28  Fridrich Strba  <fridrich.strba@bluewin.ch>  [76a104fb9ae57f272fc2784bf84c9af245a132af]
+
+tsmall fixes
+
+
+2006-10-09  William Lachance  <wrlach@gmail.com>  [066a10bd4958e47e05ca079c300706deca3a2aec]
+
+tMy old sympatico address is no longer valid. Mass update to my new gmail one.
+
+
+2006-05-23  Fridrich Strba  <fridrich.strba@bluewin.ch>  [ce80bca236376110f8a2b8ff3d8df4e0d59501bf]
+
+tSmall cleanup
+
+
+2006-05-12  Fridrich Strba  <fridrich.strba@bluewin.ch>  [9ed8082bf8779db1b79a48e474a5a54caeb01f55]
+
+tAvoid duplicate static constants that give error in KOffice built with --enable-final option
+
+
+2006-05-05  Fridrich Strba  <fridrich.strba@bluewin.ch>  [3cc51e5860a5d2fca3d97dd842d0dc232bd97281]
+
+tDo not lay-out a section when it is really not necessary
+
+
+2006-05-02  Fridrich Strba  <fridrich.strba@bluewin.ch>  [f407dbb1171c5d51f198b46f6161f35298b7f5fb]
+
+tLay-out even the single column sections as sections. Preparing for possible changes in libwpd 0.8.6
+
+
+2006-05-01  Fridrich Strba  <fridrich.strba@bluewin.ch>  [5cb56a80a82223465ccdafaa377dfb96996e2161]
+
+tProduce an XML that looks more like the OOo one. Useful for diffs between the results of our conversion and the same files after loaded and saved by OOo
+
+
+2006-04-25  Fridrich Strba  <fridrich.strba@bluewin.ch>  [d8221aefdd900a5e6d704ef36638b40934de2a20]
+
+tMore work on rendering wpd2sxw more robust
+
+
+2006-04-25  Fridrich Strba  <fridrich.strba@bluewin.ch>  [7176c5f8639ac2219cd8935a2ae99f2717bacdd7]
+
+tTrying to make wpd2sxw more compatible with third party sxw importers :-)
+
+
+2005-10-24  Fridrich Strba  <fridrich.strba@bluewin.ch>  [754f9f0cd5a876ee85ced3ed0ab34b6c8f1a41bb]
+
+tUpdate the changelog
+
+
+2005-10-24  Fridrich Strba  <fridrich.strba@bluewin.ch>  [31979c2afe1e474757e13e80fc09a4b99020c596]
+
+tPre-release cleaning
+
+
+2005-10-03  Fridrich Strba  <fridrich.strba@bluewin.ch>  [c443252d4e66ada9989673594be69a79e2d3aafe]
+
+tUnreference what needs to be unreferenced (patch Jody Goldberg) Hopefully, this solves the "locking" on windows.
+
+
+2005-08-25  Fridrich Strba  <fridrich.strba@bluewin.ch>  [bc7b001b676f5f71cd15fcaf8d02c17f74a16835]
+
+tMerging the fs_refactoring1 branch into HEAD
+
+
+2005-07-30  Fridrich Strba  <fridrich.strba@bluewin.ch>  [820ec42a865be852a88438e782b315072bf6cdea]
+
+tReverting the fribidi stuff since it is sooner than in writerperfect that the reordering has to be done in order to be useful
+
+
+2005-07-05  Fridrich Strba  <fridrich.strba@bluewin.ch>  [c0a668ccd8d2c42b0f0e5ed7c2b8c4c3309d0873]
+
+tAdd style:font-style into the attributes that have to be expanded to asian and complex
+
+
+2005-07-04  Fridrich Strba  <fridrich.strba@bluewin.ch>  [cc99ff53fd5a82e943375e21c73a7c42bd18f01b]
+
+tIt seems that fribidi 0.10.5 does not define FRIBIDI_CHARSET_UTF8, so we cater for this option too
+
+
+2005-07-04  Fridrich Strba  <fridrich.strba@bluewin.ch>  [9e9fcafad0a56cf10a6441775b1e71e50eb047ba]
+
+tAdd dependency on fribidi >= 0.10.4 (The earlies I tested) Reorder strings in order to render the RTL runs correctly.
+
+
+2005-06-27  Fridrich Strba  <fridrich.strba@bluewin.ch>  [51780e578b598538a490fddb4627e4b58661ad33]
+
+tUse the same font for Western, Asian and Complex characters/unicode ranges
+
+
+2005-06-10  Fridrich Strba  <fridrich.strba@bluewin.ch>  [f46e5f918709135b5a374de99078c36244a35356]
+
+tCatch one exception + remove mention of "WriterFilter"
+
+
+2005-02-10  Fridrich Strba  <fridrich.strba@bluewin.ch>  [78403f6f097227bf503fae23a8e54005c41be3a7]
+
+tAdd one include for strlen being available
+
+
+2005-02-09  William Lachance  <wrlach@gmail.com>  [4df98d9f1e67f82fee356ff4b992e178d8f8139e]
+
+tDon't do boneheaded things with strings. Update "is-header-row" to new convention of "libwpd:is-header-row".
+
+
+2005-02-09  Fridrich Strba  <fridrich.strba@bluewin.ch>  [6eff79b98b88b44e6320eb5f830c227f4ded45d6]
+
+tRemove "using namespace std;" from writerperfect; Fix a crash with certain documents
+
+
+2005-02-08  Fridrich Strba  <fridrich.strba@bluewin.ch>  [c32442ffb89df8d489a77bd76ecdb57eb9d8115a]
+
+tRemoving Win32 stuff from Makefile.ooo-external; Adapting Makefile.ooo-external.msvc.in to the new reality of libwpd
+
+
+2005-02-07  William Lachance  <wrlach@gmail.com>  [09a0aec429859e9d91542a87c63ec56f9a03ed21]
+
+tUse WPXPropertyListVector class..
+
+
+2005-02-02  Fridrich Strba  <fridrich.strba@bluewin.ch>  [d996c2528cfad74506f25dc5bb8de5ad5afebe9b]
+
+tMake wpd2sxw generated file be recognized by OOo 1.9.74
+
+
+2005-01-31  William Lachance  <wrlach@gmail.com>  [da699a329aff370d5da5bbdb88edd450f0804036]
+
+tUse libwpd's new WPXVector class.
+
+
+2005-01-28  Fridrich Strba  <fridrich.strba@bluewin.ch>  [884f1678f8e8711cefd4952758648342c386d44a]
+
+tAdapting the writerperfect build to the recent changes in libwpd
+
+
+2005-01-28  William Lachance  <wrlach@gmail.com>  [3939251114e4277d89b2163b29bb66b58c33cf52]
+
+tAdapt to libwpd API changes..
+
+
+2005-01-23  Fridrich Strba  <fridrich.strba@bluewin.ch>  [8bc89a2b21405b04c0d637a8fdf43b3f8f066dd9]
+
+tI forgot these two files
+
+
+2005-01-23  Fridrich Strba  <fridrich.strba@bluewin.ch>  [e2f645360caa47d94b702660d330084526427d94]
+
+tRemove one "?"
+
+
+2005-01-23  Fridrich Strba  <fridrich.strba@bluewin.ch>  [24ab5973126cb6bfb3f75258b7b5830b114c894b]
+
+tAdding NSIS installer for WriterPerfect and ChangeLog from deprecated wpd2sxw module
+
+
+2005-01-17  William Lachance  <wrlach@gmail.com>  [b9a38f3634d0b308ee6c63de17eef0c94fe1c20a]
+
+tOccurrences are now passed a string..
+
+
+2005-01-16  Fridrich Strba  <fridrich.strba@bluewin.ch>  [801c24e36dc4ad21b0abdd1ea093400b3e6504d5]
+
+tRemove any reference to libwpd_support.h and to its content
+
+
+2005-01-16  William Lachance  <wrlach@gmail.com>  [f7a0e412fcb4cca9a72a70c338de263023d2add1]
+
+tAccount for recent changes in libwpd. Ignore more generated files.
+
+
+2005-01-08  Fridrich Strba  <fridrich.strba@bluewin.ch>  [8c086076387e5d88fc452900c60c3742c973ea61]
+
+tChanging the version to 0.7.0
+
+
+2004-12-31  William Lachance  <wrlach@gmail.com>  [36502e3d1c42445ee6ef08364f8b4b4f16d6d47c]
+
+tMake sure we iterate over all the properties in a paragraph list. Always regenerate wpd2sxw with libwriterperfect by making the dependancy explicit.
+
+
+2004-12-30  William Lachance  <wrlach@gmail.com>  [2d7936c0d030d90ba20de77be9f3c521e66a63a0]
+
+tRemove ambiguity in creation of an integer property..
+
+
+2004-12-29  William Lachance  <wrlach@gmail.com>  [e040466fa0becbb6d2d7f177e0bec918476e4e35]
+
+tUpdate section and table styles to use new libwpd API for column properties. Remove some useless debugging information. Simplify some code.
+
+
+2004-12-29  Fridrich Strba  <fridrich.strba@bluewin.ch>  [4832b134ca381659abaa11ba74277bffd251795d]
+
+tOODocumentHandler fix + win32 build (TypeDetection stuff)
+
+
+2004-12-28  William Lachance  <wrlach@gmail.com>  [e549c7e8b1691e6fc1d1d0a788798d0c7f7fd251]
+
+tAdapt to recent changes in libwpd's tab and string apis.
+
+
+2004-12-08  Fridrich Strba  <fridrich.strba@bluewin.ch>  [8ae81f0f37e8308afe455c9e88a2d74c36cca689]
+
+tSmall fix that does not change anything :-)
+
+
+2004-12-08  William Lachance  <wrlach@gmail.com>  [f6c041e8686b12343e01a0604ca0452945d33e95]
+
+tFix bug where quotes and other entities would be double escaped. Table, list, footnote and endnote refactoring..
+
+
+2004-12-07  Fridrich Strba  <fridrich.strba@bluewin.ch>  [3394b43fba5e6c34280c91fb2db12fd7b8fbea5e]
+
+tJust a little .cvsignore modification
+
+
+2004-12-07  Fridrich Strba  <fridrich.strba@bluewin.ch>  [c1040558925ce6e0ccec84776dc2a43bc5763257]
+
+tFile that I forgot to commit
+
+
+2004-12-06  Fridrich Strba  <fridrich.strba@bluewin.ch>  [105ee38405f1c7b52cd70afb017b93b98169f0c3]
+
+tAutomatic filetype detection for standalone writerperfect; Unbreak debug build; Fix some file "left behind" after recent changes.
+
+
+2004-11-28  William Lachance  <wrlach@gmail.com>  [1ba0b5347cbbf7b6b9834d47857d132c4799e8c8]
+
+tRefactoring still in progress: simplify styles handling code quite a bit.
+
+
+2004-11-27  William Lachance  <wrlach@gmail.com>  [1db723b6013a5592c8ad253b76ba812b85ba902f]
+
+tFix stupid crash with lists.
+
+
+2004-11-26  Fridrich Strba  <fridrich.strba@bluewin.ch>  [319e5cbe3a2ab6018fe6003ca5ee37d2d715dd21]
+
+tSmall change
+
+
+2004-11-26  Fridrich Strba  <fridrich.strba@bluewin.ch>  [aef6411f50ce05dc4f99d65f2cbc4b03c27e29e7]
+
+tMake WriterPerfect UNO component build on Win32, Build libwriterperfect as a private library of wpd2sxw, Add spec file and "make rpm" command for producing rpms of wpd2sxw; Commit William's fix for OODocumentHandler.cxx
+
+
+2004-11-25  William Lachance  <wrlach@gmail.com>  [195146e7555acf002d61c2786b9298c234cfc0c4]
+
+tForgot to change the integrated ooo document handler while I was refactoring..
+
+
+2004-11-25  William Lachance  <wrlach@gmail.com>  [fd5d6b68fbf0db845a5befc5807713eaeba3b722]
+
+tEnable build of WriterPerfect as an external OpenOffice.org component, more WriterPerfect refactoring
+
+
+2004-11-15  Fridrich Strba  <fridrich.strba@bluewin.ch>  [760b8f77260571bdfafb28547fcfd1a5211c1ff0]
+
+tSecond part of Win32 (mingw and msvc) work
+
+
+2004-11-15  Fridrich Strba  <fridrich.strba@bluewin.ch>  [39cde5cc7343dd1c9d9c8926f20327bce7784199]
+
+tWin32 (mingw) work
+
+
+2004-11-15  William Lachance  <wrlach@gmail.com>  [20d642cc7ae849934ff43fdc4f9c3e627bd034d2]
+
+tClean up makefiles a bit..
+
+
+2004-10-28  William Lachance  <wrlach@gmail.com>  [85102e733a45c5b13504d32a8830ca7217e42f65]
+
+tRemove a few accidentally added files..
+
+
+2004-10-28  William Lachance  <wrlach@gmail.com>  [0a3f6dec89e1d1f8d385852883a1717983247239]
+
+tInitial revision
+

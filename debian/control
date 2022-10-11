@@ -1,0 +1,36 @@
+Source: libodfgen
+Priority: optional
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Uploaders: Rene Engelhard <rene@debian.org>
+Build-Depends: debhelper (>= 10),
+               dh-autoreconf,
+               libboost-dev,
+               librevenge-dev,
+               libxml2-dev,
+               pkg-config
+Standards-Version: 3.9.4
+Section: libs
+Homepage: https://sourceforge.net/p/libwpd/wiki/libodfgen/
+
+Package: libodfgen-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: librevenge-dev,
+         libodfgen-0.1-1 (= ${binary:Version}),
+         ${misc:Depends}
+Description: library to generate ODF documents -- development
+ Libodfgen is library providing ability to generate ODF documents from
+ libwpd and libwps API calls.
+ .
+ This package contains the development files (headers, ...)
+
+Package: libodfgen-0.1-1
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: library to generate ODF documents
+ Libodfgen is library providing ability to generate ODF documents from
+ libwpd and libwps API calls.
+

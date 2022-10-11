@@ -1,0 +1,107 @@
+libodfgen (0.1.8-2) unstable; urgency=medium
+
+  * change Homepage: to https://sourceforge.net/p/libwpd/wiki/libodfgen/
+    (closes: #965992)
+
+ -- Rene Engelhard <rene@debian.org>  Sun, 24 Jan 2021 22:59:27 +0100
+
+libodfgen (0.1.8-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Rene Engelhard <rene@debian.org>  Sun, 24 Jan 2021 22:16:00 +0100
+
+libodfgen (0.1.7-1) unstable; urgency=medium
+
+  * New upstream version 0.1.7
+  * update debian/watch
+
+ -- Rene Engelhard <rene@debian.org>  Wed, 13 Jun 2018 18:59:45 +0200
+
+libodfgen (0.1.6-2) unstable; urgency=medium
+
+  * [637c5e0] move Maintainer: to Debian LibreOffice Maintainers
+  * [450c79f] multiarchify
+
+ -- Rene Engelhard <rene@debian.org>  Mon, 12 Sep 2016 22:30:51 +0200
+
+libodfgen (0.1.6-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Rene Engelhard <rene@debian.org>  Thu, 31 Dec 2015 09:24:49 +0100
+
+libodfgen (0.1.5-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Rene Engelhard <rene@debian.org>  Mon, 02 Nov 2015 22:58:38 +0100
+
+libodfgen (0.1.4-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Rene Engelhard <rene@debian.org>  Sun, 17 May 2015 13:57:38 +0200
+
+libodfgen (0.1.3-2) unstable; urgency=medium
+
+  * upload to unstable
+
+ -- Rene Engelhard <rene@debian.org>  Sun, 05 Apr 2015 19:47:01 +0200
+
+libodfgen (0.1.3-1) experimental; urgency=medium
+
+  * New upstream release
+
+ -- Rene Engelhard <rene@debian.org>  Fri, 02 Jan 2015 14:19:56 +0100
+
+libodfgen (0.1.2-1) experimental; urgency=medium
+
+  * New upstream release
+
+ -- Rene Engelhard <rene@debian.org>  Tue, 25 Nov 2014 18:03:39 +0100
+
+libodfgen (0.1.1-2) unstable; urgency=low
+
+  * upload to unstable
+
+  * fix debian/copyright (add full MPL 2.0 text) (closes: #750803) 
+
+ -- Rene Engelhard <rene@debian.org>  Fri, 08 Aug 2014 00:14:43 +0200
+
+libodfgen (0.1.1-1) experimental; urgency=low
+
+  * New upstream release
+
+ -- Rene Engelhard <rene@debian.org>  Tue, 03 Jun 2014 18:37:17 +0200
+
+libodfgen (0.1.0-1) experimental; urgency=low
+
+  * New upstream release
+
+ -- Rene Engelhard <rene@debian.org>  Fri, 23 May 2014 20:03:11 +0200
+
+libodfgen (0.0.4-2) unstable; urgency=low
+
+  * upload to unstable 
+
+ -- Rene Engelhard <rene@debian.org>  Tue, 06 May 2014 22:02:47 +0200
+
+libodfgen (0.0.4-1) experimental; urgency=low
+
+  * New upstream release
+  * Use dh-autoreconf (closes: #734036)
+
+ -- Rene Engelhard <rene@debian.org>  Mon, 06 Jan 2014 16:40:24 +0100
+
+libodfgen (0.0.2-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Rene Engelhard <rene@debian.org>  Wed, 22 May 2013 15:17:31 +0200
+
+libodfgen (0.0.1-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Rene Engelhard <rene@debian.org>  Tue, 07 May 2013 11:40:35 +0000
